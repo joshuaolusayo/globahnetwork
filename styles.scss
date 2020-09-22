@@ -1,0 +1,354 @@
+$text-white: #fff;
+$text-yellow: #ec8724;
+$background-color: #040615;
+// $logo-color: #5bcbf5;
+$logo-color: #327293;
+$dark-logo-variant: #007bff40;
+
+.text-white {
+	color: $text-white;
+}
+
+.bg-white {
+	background: $text-white;
+}
+
+.text-yellow {
+	color: $text-yellow;
+}
+
+.bg-yellow {
+	background: $text-yellow;
+}
+
+.bg-logo {
+	background: $logo-color;
+}
+
+.text-logo {
+	color: $logo-color;
+}
+
+a.bg-logo:hover {
+	background: $dark-logo-variant;
+}
+
+body {
+	background: $background-color;
+	font-family: "Lato", sans-serif;
+	color: $text-white;
+}
+
+.wrapper {
+	background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
+	background-attachment: fixed;
+
+	header {
+		.logo {
+			width: 200px;
+		}
+
+		a {
+			font-size: 18px;
+			color: #5bcbf5;
+		}
+	}
+
+	.banner__img {
+		height: 250px;
+		width: 300px;
+		object-fit: cover;
+
+		@media screen and (min-width: 768px) {
+			height: 400px;
+			width: auto;
+		}
+	}
+
+	.footer {
+		background: url("/images/footer-wave.svg") no-repeat;
+		background-size: cover;
+		height: 150px;
+		width: 100%;
+		bottom: 20px;
+
+		@media screen and (min-width: 800px) {
+			height: 200px;
+		}
+
+		@media screen and (min-width: 900px) {
+			height: 250px;
+		}
+
+		a {
+			&:hover {
+				color: $text-yellow;
+			}
+		}
+	}
+}
+
+.homepage {
+	.action__btn {
+		a {
+			width: 100%;
+			border-radius: 30px;
+			border: 2px solid #ddd;
+			transition: background 600ms;
+
+			@media screen and (min-width: 768px) {
+				width: 200px;
+			}
+
+			&:nth-child(1) {
+				background: #327293;
+
+				&:hover {
+					background: #327293c4;
+				}
+			}
+
+			&:nth-child(2) {
+				background: #050918;
+
+				&:hover {
+					background: #151414;
+				}
+			}
+
+			&:nth-child(3) {
+				background: #ec8724;
+
+				&:hover {
+					background: #e28c0dad;
+				}
+			}
+		}
+	}
+
+	.items {
+		position: relative;
+		padding-left: 30px;
+
+		&::before,
+		&::after {
+			position: absolute;
+			content: "";
+		}
+
+		&::before {
+			top: 3px;
+			left: 0;
+			width: 1.5rem;
+			height: 1.5rem;
+			display: inline-block;
+			background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), rgba(0, 0, 0, 0);
+			background-position: center;
+			background-size: 50% 2px, 2px 50%;
+			background-repeat: no-repeat;
+		}
+
+		&::after {
+			top: 2.7rem;
+			left: 10px;
+			bottom: 0;
+			width: 2px;
+			background-color: $text-white;
+		}
+	}
+
+	.faq {
+		.btn-link,
+		.btn {
+			text-align: left;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+			&:focus {
+				text-decoration: none;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.join,
+.auth {
+	.register {
+		border: 8px double $logo-color;
+		&__img {
+			max-height: 500px;
+			width: 100%;
+			object-fit: cover;
+			object-position: left top;
+		}
+
+		.change {
+			transition: ease-in all 300ms;
+
+			&:hover {
+				color: #fff;
+				background: $logo-color !important;
+			}
+		}
+
+		.signup {
+			transition: ease-in all 300ms;
+			&:hover {
+				background: $dark-logo-variant;
+			}
+		}
+
+		.auth {
+			transition: ease-in all 300ms;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		.auth__input {
+			&::placeholder {
+				color: #212529 !important;
+			}
+
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		.view {
+			&:hover {
+				background: $dark-logo-variant !important;
+				color: $text-white;
+			}
+		}
+
+		.img2 {
+			transform: scaleX(-1);
+		}
+	}
+}
+
+/**************************************
+            Neogrey font
+**************************************/
+@font-face {
+	font-family: "Neogrey";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Neogrey"), url("./NeogreyRegular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Neogrey Medium";
+	font-style: normal;
+	font-weight: bold;
+	src: local("Neogrey Medium"), url("./NeogreyMedium.woff") format("woff");
+}
+
+.font-neogrey {
+	font-family: Neogrey;
+}
+
+.font-neogrey-medium {
+	font-family: "Neogrey Medium";
+}
+
+.home {
+	header {
+		.globe {
+			width: 250px;
+			height: 180px;
+			font-family: Neogrey;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		.font-neogrey-medium.fa-2x {
+			font-size: 22pt;
+		}
+
+		.sm {
+			font-size: 12px;
+		}
+
+		@media screen and (max-width: 767px) {
+			flex-wrap: wrap;
+
+			nav {
+				justify-content: center !important;
+			}
+
+			.display__items {
+				flex-direction: row !important;
+				justify-content: space-between !important;
+
+				& > div.row {
+					display: inline-block;
+					text-align: center;
+					text-align: center;
+				}
+
+				.col-lg-7 {
+					text-align: center !important;
+				}
+			}
+
+			.globe {
+				display: none;
+            }
+
+            a {
+                font-size: 14px;
+            }
+            
+            .font-neogrey-medium.fa-2x {
+                font-size: 10pt;
+            }
+    
+            .sm {
+                font-size: 10px;
+            }
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 991px) {
+            flex-wrap: wrap;
+
+			nav {
+				justify-content: center !important;
+			}
+
+			.display__items {
+				flex-direction: row !important;
+				justify-content: space-between !important;
+
+				& > div.row {
+					display: inline-block;
+					text-align: center;
+					text-align: center;
+				}
+
+				.col-lg-7 {
+					text-align: center !important;
+				}
+			}
+
+			.globe {
+				width: 200px;
+				height: 120px;
+            }
+            
+            .font-neogrey-medium.fa-2x {
+                font-size: 18pt;
+            }
+    
+            .sm {
+                font-size: 12px;
+            }
+		}
+	}
+}

@@ -1,0 +1,339 @@
+.text-white {
+  color: #fff;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.text-yellow {
+  color: #ec8724;
+}
+
+.bg-yellow {
+  background: #ec8724;
+}
+
+.bg-logo {
+  background: #327293;
+}
+
+.text-logo {
+  color: #327293;
+}
+
+a.bg-logo:hover {
+  background: #007bff40;
+}
+
+body {
+  background: #040615;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
+  background-attachment: fixed;
+}
+
+.wrapper header .logo {
+  width: 200px;
+}
+
+.wrapper header a {
+  font-size: 18px;
+  color: #5bcbf5;
+}
+
+.wrapper .banner__img {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper .banner__img {
+    height: 400px;
+    width: auto;
+  }
+}
+
+.wrapper .footer {
+  background: url("/images/footer-wave.svg") no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper .footer {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper .footer {
+    height: 250px;
+  }
+}
+
+.wrapper .footer a:hover {
+  color: #ec8724;
+}
+
+.homepage .action__btn a {
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #ddd;
+  transition: background 600ms;
+}
+
+@media screen and (min-width: 768px) {
+  .homepage .action__btn a {
+    width: 200px;
+  }
+}
+
+.homepage .action__btn a:nth-child(1) {
+  background: #327293;
+}
+
+.homepage .action__btn a:nth-child(1):hover {
+  background: #327293c4;
+}
+
+.homepage .action__btn a:nth-child(2) {
+  background: #050918;
+}
+
+.homepage .action__btn a:nth-child(2):hover {
+  background: #151414;
+}
+
+.homepage .action__btn a:nth-child(3) {
+  background: #ec8724;
+}
+
+.homepage .action__btn a:nth-child(3):hover {
+  background: #e28c0dad;
+}
+
+.homepage .items {
+  position: relative;
+  padding-left: 30px;
+}
+
+.homepage .items::before, .homepage .items::after {
+  position: absolute;
+  content: "";
+}
+
+.homepage .items::before {
+  top: 3px;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), rgba(0, 0, 0, 0);
+  background-position: center;
+  background-size: 50% 2px, 2px 50%;
+  background-repeat: no-repeat;
+}
+
+.homepage .items::after {
+  top: 2.7rem;
+  left: 10px;
+  bottom: 0;
+  width: 2px;
+  background-color: #fff;
+}
+
+.homepage .faq .btn-link,
+.homepage .faq .btn {
+  text-align: left;
+}
+
+.homepage .faq .btn-link:hover,
+.homepage .faq .btn:hover {
+  text-decoration: none;
+}
+
+.homepage .faq .btn-link:focus,
+.homepage .faq .btn:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.join .register,
+.auth .register {
+  border: 8px double #327293;
+}
+
+.join .register__img,
+.auth .register__img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+
+.join .register .change,
+.auth .register .change {
+  transition: ease-in all 300ms;
+}
+
+.join .register .change:hover,
+.auth .register .change:hover {
+  color: #fff;
+  background: #327293 !important;
+}
+
+.join .register .signup,
+.auth .register .signup {
+  transition: ease-in all 300ms;
+}
+
+.join .register .signup:hover,
+.auth .register .signup:hover {
+  background: #007bff40;
+}
+
+.join .register .auth,
+.auth .register .auth {
+  transition: ease-in all 300ms;
+}
+
+.join .register .auth:hover,
+.auth .register .auth:hover {
+  text-decoration: none;
+}
+
+.join .register .auth__input::placeholder,
+.auth .register .auth__input::placeholder {
+  color: #212529 !important;
+}
+
+.join .register .auth__input:focus,
+.auth .register .auth__input:focus {
+  outline: 0;
+}
+
+.join .register .view:hover,
+.auth .register .view:hover {
+  background: #007bff40 !important;
+  color: #fff;
+}
+
+.join .register .img2,
+.auth .register .img2 {
+  transform: scaleX(-1);
+}
+
+/**************************************
+            Neogrey font
+**************************************/
+@font-face {
+  font-family: "Neogrey";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Neogrey"), url("./NeogreyRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Neogrey Medium";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Neogrey Medium"), url("./NeogreyMedium.woff") format("woff");
+}
+
+.font-neogrey {
+  font-family: Neogrey;
+}
+
+.font-neogrey-medium {
+  font-family: "Neogrey Medium";
+}
+
+.home header .globe {
+  width: 250px;
+  height: 180px;
+  font-family: Neogrey;
+}
+
+.home header ul {
+  list-style-type: none;
+}
+
+.home header .font-neogrey-medium.fa-2x {
+  font-size: 22pt;
+}
+
+.home header .sm {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .home header {
+    flex-wrap: wrap;
+  }
+  .home header nav {
+    justify-content: center !important;
+  }
+  .home header .display__items {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .home header .display__items > div.row {
+    display: inline-block;
+    text-align: center;
+    text-align: center;
+  }
+  .home header .display__items .col-lg-7 {
+    text-align: center !important;
+  }
+  .home header .globe {
+    display: none;
+  }
+  .home header a {
+    font-size: 14px;
+  }
+  .home header .font-neogrey-medium.fa-2x {
+    font-size: 10pt;
+  }
+  .home header .sm {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home header {
+    flex-wrap: wrap;
+  }
+  .home header nav {
+    justify-content: center !important;
+  }
+  .home header .display__items {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .home header .display__items > div.row {
+    display: inline-block;
+    text-align: center;
+    text-align: center;
+  }
+  .home header .display__items .col-lg-7 {
+    text-align: center !important;
+  }
+  .home header .globe {
+    width: 200px;
+    height: 120px;
+  }
+  .home header .font-neogrey-medium.fa-2x {
+    font-size: 18pt;
+  }
+  .home header .sm {
+    font-size: 12px;
+  }
+}
