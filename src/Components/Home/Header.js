@@ -9,7 +9,7 @@ const Header = () => {
 				<img className="globe" src="/images/globe.png" alt="Globe" />
 			</div>
 			<div className="flex-basis-100 w-100">
-				<nav className="d-flex justify-content-end">
+				<nav className="d-flex justify-content-center">
 					<ul className="d-inline-flex pl-0">
 						<li>
 							<Link className="text-logo m-2 ml-0 d-inline-block" to="/">

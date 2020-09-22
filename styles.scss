@@ -300,23 +300,23 @@ body {
 
 			.globe {
 				display: none;
-            }
+			}
 
-            a {
-                font-size: 14px;
-            }
-            
-            .font-neogrey-medium.fa-2x {
-                font-size: 10pt;
-            }
-    
-            .sm {
-                font-size: 10px;
-            }
+			a {
+				font-size: 14px;
+			}
+
+			.font-neogrey-medium.fa-2x {
+				font-size: 10pt;
+			}
+
+			.sm {
+				font-size: 10px;
+			}
 		}
 
 		@media screen and (min-width: 768px) and (max-width: 991px) {
-            flex-wrap: wrap;
+			flex-wrap: wrap;
 
 			nav {
 				justify-content: center !important;
@@ -340,15 +340,64 @@ body {
 			.globe {
 				width: 200px;
 				height: 120px;
-            }
-            
-            .font-neogrey-medium.fa-2x {
-                font-size: 18pt;
-            }
-    
-            .sm {
-                font-size: 12px;
-            }
+			}
+
+			.font-neogrey-medium.fa-2x {
+				font-size: 18pt;
+			}
+
+			.sm {
+				font-size: 12px;
+			}
 		}
 	}
+
+	.details, .main {
+		.border-bg {
+			border: 5px double $logo-color !important;
+			border-radius: 10px;
+		}
+
+		.border {
+			border: 1px solid $logo-color !important;
+			border-radius: 10px;
+		}
+
+		.txt__bg {
+			font-size: 20px;
+
+			& > div:nth-child(2) {
+				color: $logo-color !important;
+			}
+		}
+
+		.sm__img {
+			max-width: 100px;
+		}
+
+		.mg__n5 {
+			margin-bottom: -1.8rem !important;
+        }
+        
+        .link {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+    
+    .main {
+        .rounded-box {
+            .hole {
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                background-color: $dark-logo-variant;
+            }
+
+            // span:nth-child(2) {
+            //     margin
+            // }
+        }
+    }
 }

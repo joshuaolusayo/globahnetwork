@@ -337,3 +337,42 @@ body {
     font-size: 12px;
   }
 }
+
+.home .details .border-bg, .home .main .border-bg {
+  border: 5px double #327293 !important;
+  border-radius: 10px;
+}
+
+.home .details .border, .home .main .border {
+  border: 1px solid #327293 !important;
+  border-radius: 10px;
+}
+
+.home .details .txt__bg, .home .main .txt__bg {
+  font-size: 20px;
+}
+
+.home .details .txt__bg > div:nth-child(2), .home .main .txt__bg > div:nth-child(2) {
+  color: #327293 !important;
+}
+
+.home .details .sm__img, .home .main .sm__img {
+  max-width: 100px;
+}
+
+.home .details .mg__n5, .home .main .mg__n5 {
+  margin-bottom: -1.8rem !important;
+}
+
+.home .details .link, .home .main .link {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.home .main .rounded-box .hole {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-color: #007bff40;
+}

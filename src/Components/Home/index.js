@@ -8,7 +8,7 @@ const Home = () => {
 		<div className="home wrapper">
 			<Header />
 			<div className="content container">
-				<div className="row">
+				<div className="row my-4">
                     <Details />
                     <Main />
                 </div>
