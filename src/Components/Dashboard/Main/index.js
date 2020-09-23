@@ -42,6 +42,23 @@ const Main = () => {
 					</div>
 					<div className="col-md-6">
 						<div>
+							<span className="bg-green draw"></span>
+							<span className="ml-2">Partner invited by you</span>
+						</div>
+						<div>
+							<span className="bg-secondary draw"></span>
+							<span className="ml-2">Overflow from you</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ThirdContainer />
+
+			<div className="container my-3 invite">
+				<div className="row text-uppercase">
+					<div className="col-md-6">
+						<div>
 							<span className="bg-logo draw"></span>
 							<span className="ml-2">Partner invited by you</span>
 						</div>
@@ -50,10 +67,18 @@ const Main = () => {
 							<span className="ml-2">Overflow from you</span>
 						</div>
 					</div>
+					<div className="col-md-6">
+						<div>
+							<span className="bg-green draw"></span>
+							<span className="ml-2">Partner invited by you</span>
+						</div>
+						<div>
+							<span className="bg-secondary draw"></span>
+							<span className="ml-2">Overflow from you</span>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<ThirdContainer />
 		</div>
 	);
 };

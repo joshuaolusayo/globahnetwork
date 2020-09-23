@@ -7,12 +7,12 @@ const Authenticate = () => {
 		<div className="auth">
 			<div className="wrapper">
 				<header className="p-4 d-flex justify-content-center justify-content-md-between">
-					<Link className="d-inline-block" to="/">
+					<Link className="d-inline-block" to="/" target="_blanc">
 						<img className="logo" src="/images/logo.png" alt="Logo" />
 					</Link>
 
-					<Link className="p-4 d-none d-md-inline-block hme" to="/">
-						Homepage
+					<Link className="p-4 d-none d-md-inline-block hme" to="/home/dashboard" target="_blanc">
+						Dashboard
 					</Link>
 				</header>
 				<section className="container my-5 my-md-auto">
@@ -58,7 +58,7 @@ const Authenticate = () => {
 				</section>
 				<p className="text-center mt-2">
 					Join us on telegram&nbsp;
-					<Link className="text-logo" to="/">
+					<Link className="text-logo" to="/" target="_blanc">
 						here
 					</Link>
 				</p>

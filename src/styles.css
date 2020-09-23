@@ -18,6 +18,14 @@
   background: #327293;
 }
 
+.text-green {
+  color: #8bc34a;
+}
+
+.bg-green {
+  background: #8bc34a;
+}
+
 .text-logo {
   color: #327293;
 }
@@ -501,11 +509,6 @@ body {
   border: 1px solid #327293bf;
 }
 
-.dashboard .main .f__l span a.ml-n-1,
-.dashboard .main .c__l span a.ml-n-1 {
-  margin-left: -1px;
-}
-
 .dashboard .main .f__l span {
   width: 15px;
   height: 15px;
@@ -562,9 +565,9 @@ body {
 
 .dashboard .main .c__l span.second-child::before {
   width: 1px;
-  height: 20px;
+  height: 16px;
   border-left: 1px solid #ec8724;
-  top: -1.2rem;
+  top: -1rem;
 }
 
 .dashboard .main .c__l span.second-child:first-child::before {
@@ -573,6 +576,18 @@ body {
 
 .dashboard .main .c__l span.second-child:nth-child(2)::before {
   left: -2px;
+}
+
+.dashboard .main .c__l span.third-child {
+  border: 1px solid #327293;
+  display: inline-block;
+  top: 1.5rem;
+}
+
+.dashboard .main .c__l span.third-child::before {
+  width: 1px;
+  height: 14px;
+  border-left: 1px solid #ec8724;
 }
 
 .dashboard .main .invite .draw {

@@ -4,6 +4,7 @@ $background-color: #040615;
 // $logo-color: #5bcbf5;
 $logo-color: #327293;
 $dark-logo-variant: #007bff40;
+$green-color: #8bc34a;
 
 .text-white {
 	color: $text-white;
@@ -23,6 +24,14 @@ $dark-logo-variant: #007bff40;
 
 .bg-logo {
 	background: $logo-color;
+}
+
+.text-green {
+	color: $green-color;
+}
+
+.bg-green {
+	background: $green-color;
 }
 
 .text-logo {
@@ -516,10 +525,6 @@ body {
 					&.bg-logo:hover {
 						border: 1px solid #327293bf;
 					}
-
-					&.ml-n-1 {
-						margin-left: -1px;
-					}
 				}
 			}
 		}
@@ -599,9 +604,9 @@ body {
 				&.second-child {
 					&::before {
 						width: 1px;
-						height: 20px;
+						height: 16px;
 						border-left: 1px solid $text-yellow;
-						top: -1.2rem;
+						top: -1rem;
 					}
 
 					&:first-child::before {
@@ -611,6 +616,24 @@ body {
 					&:nth-child(2)::before {
 						left: -2px;
 					}
+				}
+
+				&.third-child {
+					border: 1px solid $logo-color;
+					display: inline-block;
+					top: 1.5rem;
+
+					&::before {
+						width: 1px;
+						height: 14px;
+						border-left: 1px solid $text-yellow;
+					}
+
+					// &:nth-child(1) {
+					// 	&::before {
+							
+					// 	}
+					// }
 				}
 			}
 		}
