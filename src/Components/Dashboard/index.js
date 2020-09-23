@@ -1,11 +1,11 @@
 import React from "react";
-import Details from "./Details";
+import Details from "./Details/index";
 import Header from "./Header";
-import Main from "./Main";
+import Main from "./Main/index";
 
-const Home = () => {
+const Dashboard = () => {
 	return (
-		<div className="home wrapper">
+		<div className="dashboard wrapper">
 			<Header />
 			<div className="content container">
 				<div className="row my-4">
@@ -17,4 +17,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Dashboard;

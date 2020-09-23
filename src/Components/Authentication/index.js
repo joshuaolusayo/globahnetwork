@@ -36,17 +36,21 @@ const Authenticate = () => {
 									name="acct-id"
 									placeholder="Enter id"
 								/>
-								<Link className="d-inline-block text-center rounded-bottom auth text-logo w-100 bg-white py-3 view" to="/">
+								<button className="btn border-0 d-inline-block text-center auth text-logo w-100 bg-white py-3 view">
 									Viewing
-								</Link>
+								</button>
 							</form>
 
 							<hr className="bg-white w-100" />
 
 							<div className="w-100">
 								<p>Join if you are not yet with us</p>
-								<Link className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3" to="/auth">
-									Authorization
+								<Link
+									className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3"
+									to="/join"
+									target="_blanc"
+								>
+									Join
 								</Link>
 							</div>
 						</div>

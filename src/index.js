@@ -9,7 +9,7 @@ import "./styles.css";
 import Homepage from "./Components/Homepage";
 import Join from "./Components/Register";
 import Authenticate from "./Components/Authentication";
-import Home from "./Components/Home";
+import Dashboard from "./Components/Dashboard";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -18,7 +18,7 @@ ReactDOM.render(
 			<Route exact path="/" component={Homepage}></Route>
 			<Route exact path="/join" component={Join}></Route>
 			<Route exact path="/auth" component={Authenticate}></Route>
-			<Route exact path="/home/dashboard" component={Home}></Route>
+			<Route exact path="/home/dashboard" component={Dashboard}></Route>
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById("root")

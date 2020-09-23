@@ -50,7 +50,7 @@ const Join = () => {
 							<button className="rounded bg-logo border-0 text-white btn w-100 py-3 signup">Sign up</button>
 							<p>Check the ID of your inviter</p>
 							<p>You can edit before proceed to payment</p>
-							<Link className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3" to="/auth">
+							<Link className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3" to="/auth" target="_blanc">
 								Authorization
 							</Link>
 						</div>

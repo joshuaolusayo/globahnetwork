@@ -14,7 +14,7 @@ const About = () => {
 				<Link className="d-inline-block btn text-center text-white py-3 mx-md-3 my-3" target="_blanc" to="/">
 					PDF
 				</Link>
-				<Link className="d-inline-block btn text-center text-white py-3 ml-md-3 my-3" target="_blanc" to="/">
+				<Link className="d-inline-block btn text-center text-white py-3 ml-md-3 my-3" target="_blanc" to="/auth">
 					LOGIN
 				</Link>
 			</div>

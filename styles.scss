@@ -40,8 +40,10 @@ body {
 }
 
 .wrapper {
-	background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
-	background-attachment: fixed;
+	// background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
+	// background-attachment: fixed;
+	// min-height: 100vh;
+	background-color: #040615;
 
 	header {
 		.logo {
@@ -219,9 +221,16 @@ body {
 		}
 
 		.view {
+			border-top-left-radius: 0 !important;
+			border-top-right-radius: 0 !important;
+
 			&:hover {
 				background: $dark-logo-variant !important;
 				color: $text-white;
+			}
+
+			&.btn:focus {
+				box-shadow: none;
 			}
 		}
 
@@ -256,7 +265,7 @@ body {
 	font-family: "Neogrey Medium";
 }
 
-.home {
+.dashboard {
 	header {
 		.globe {
 			width: 250px;
@@ -352,7 +361,8 @@ body {
 		}
 	}
 
-	.details, .main {
+	.details,
+	.main {
 		.border-bg {
 			border: 5px double $logo-color !important;
 			border-radius: 10px;
@@ -377,27 +387,241 @@ body {
 
 		.mg__n5 {
 			margin-bottom: -1.8rem !important;
-        }
-        
-        .link {
-            text-overflow: ellipsis;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-    }
-    
-    .main {
-        .rounded-box {
-            .hole {
-                width: 25px;
-                height: 25px;
-                display: inline-block;
-                background-color: $dark-logo-variant;
-            }
+		}
 
-            // span:nth-child(2) {
-            //     margin
-            // }
-        }
-    }
+		.link {
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+	}
+
+	.main {
+		.col-5-4 {
+			@media screen and (min-width: 500px) and (max-width: 576px) {
+				-ms-flex: 0 0 33.333333%;
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+			}
+		}
+
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+
+			&.bg-logo:hover {
+				background-color: #327293bf;
+			}
+
+			&.bg-yellow:hover {
+				background-color: #ec8724cc;
+			}
+		}
+
+		.line
+		// .f__line
+		{
+			@media screen and (min-width: 767px) {
+				height: 20px;
+			}
+
+			span {
+				border-left: 1px dashed $text-yellow;
+			}
+		}
+
+		.line {
+			height: 14px;
+
+			span {
+				&:nth-child(1) {
+					top: -30px;
+					left: -25px;
+					transform: rotate(36deg);
+				}
+
+				&:nth-child(3) {
+					top: -30px;
+					left: -25px;
+					transform: rotate(-36deg);
+				}
+
+				@media screen and (min-width: 767px) {
+					&:nth-child(1) {
+						top: -50px;
+						left: -27px;
+					}
+
+					&:nth-child(3) {
+						top: -50px;
+						left: -30px;
+						transform: rotate(-36deg);
+					}
+				}
+			}
+		}
+
+		.rounded-box {
+			.hole {
+				width: 20px;
+				height: 20px;
+				display: inline-block;
+				background-color: $dark-logo-variant;
+
+				@media screen and (min-width: 767px) {
+					width: 25px;
+					height: 25px;
+				}
+			}
+		}
+
+		.text-bg {
+			font-size: 14px;
+
+			@media screen and (min-width: 767px) {
+				font-size: 18px;
+			}
+		}
+
+		.f__l,
+		.c__l {
+			span {
+				position: relative;
+
+				&::before,
+				&::after {
+					position: absolute;
+					content: "";
+				}
+
+				&.first-child {
+					&::before {
+						width: 1px;
+						border-left: 1px solid $text-yellow;
+					}
+
+					a {
+						position: absolute;
+					}
+				}
+
+				&.second-child {
+					&::before {
+						height: 15px;
+					}
+				}
+
+				a {
+					&.bg-logo:hover {
+						border: 1px solid #327293bf;
+					}
+
+					&.ml-n-1 {
+						margin-left: -1px;
+					}
+				}
+			}
+		}
+
+		.f__l {
+			span {
+				width: 15px;
+				height: 15px;
+				line-height: 15px;
+
+				&::before,
+				&::after {
+					top: -1rem;
+				}
+
+				&:nth-child(1) {
+					&::before {
+						left: 10px;
+						transform: rotate(25deg);
+					}
+				}
+
+				&:nth-child(2) {
+					&::before {
+						right: 10px;
+						transform: rotate(-25deg);
+					}
+				}
+
+				&.first-child {
+					&::before {
+						height: 15px;
+					}
+				}
+
+				&.second-child {
+					&::before {
+						width: 1px;
+						height: 15px;
+						border-left: 1px solid $text-yellow;
+					}
+				}
+			}
+		}
+
+		.c__l {
+			span {
+				width: 12px;
+				height: 12px;
+				line-height: 12px;
+
+				&::before,
+				&::after {
+					top: -1rem;
+				}
+
+				&:nth-child(1) {
+					&::before {
+						left: 8px;
+						transform: rotate(25deg);
+					}
+				}
+
+				&:nth-child(2) {
+					&::before {
+						right: 8px;
+						transform: rotate(-25deg);
+					}
+				}
+
+				&.first-child {
+					&::before {
+						height: 15px;
+					}
+				}
+
+				&.second-child {
+					&::before {
+						width: 1px;
+						height: 20px;
+						border-left: 1px solid $text-yellow;
+						top: -1.2rem;
+					}
+
+					&:first-child::before {
+						left: 12px;
+					}
+					
+					&:nth-child(2)::before {
+						left: -2px;
+					}
+				}
+			}
+		}
+
+		.invite {
+			.draw {
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				display: inline-block;
+			}
+		}
+	}
 }
