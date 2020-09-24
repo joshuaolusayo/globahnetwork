@@ -373,8 +373,12 @@ body {
 	.details,
 	.main {
 		.border-bg {
-			border: 5px double $logo-color !important;
+			border: 1px solid $logo-color;
 			border-radius: 10px;
+
+			@media screen and (min-width: 767px) {
+				border: 5px double $logo-color;
+			}
 		}
 
 		.border {
@@ -383,10 +387,41 @@ body {
 		}
 
 		.txt__bg {
-			font-size: 20px;
+			font-size: 12px;
+
+			@media screen and (min-width: 767px) {
+				font-size: 18px;
+			}
 
 			& > div:nth-child(2) {
 				color: $logo-color !important;
+			}
+		}
+
+		.ft,
+		.btn {
+			font-size: 14px;
+
+			@media screen and (min-width: 767px) {
+				font-size: 20px;
+			}
+		}
+
+		.fgt {
+			h5 {
+				font-size: 1rem;
+
+				@media screen and (min-width: 767px) {
+					font-size: 1.25rem;
+				}
+			}
+		}
+
+		span {
+			font-size: 12px;
+
+			@media screen and (min-width: 767px) {
+				font-size: 1rem;
 			}
 		}
 
@@ -612,7 +647,7 @@ body {
 					&:first-child::before {
 						left: 12px;
 					}
-					
+
 					&:nth-child(2)::before {
 						left: -2px;
 					}
@@ -631,7 +666,7 @@ body {
 
 					// &:nth-child(1) {
 					// 	&::before {
-							
+
 					// 	}
 					// }
 				}
@@ -644,6 +679,49 @@ body {
 				height: 15px;
 				border-radius: 50%;
 				display: inline-block;
+			}
+		}
+	}
+
+	.page {
+		.info {
+			.spn {
+				width: 25px;
+				height: 25px;
+				line-height: 25px;
+				font-size: 12px;
+				text-align: center;
+			}
+
+			.bd {
+				width: 120px;
+
+				@media screen and (min-width: 480px) {
+					width: 180px;
+				}
+
+				@media screen and (min-width: 767px) {
+					width: 280px;
+				}
+			}
+
+			.id__details {
+				position: relative;
+
+				.p__abs {
+					position: absolute;
+					background: #1a5674;
+					right: -10px;
+				}
+			}
+
+			.clickable {
+				.hole {
+					width: 20px;
+					height: 20px;
+					line-height: 20px;
+					border: 1px solid $text-yellow;
+				}
 			}
 		}
 	}

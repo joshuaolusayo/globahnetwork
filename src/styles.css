@@ -358,8 +358,15 @@ body {
 
 .dashboard .details .border-bg,
 .dashboard .main .border-bg {
-  border: 5px double #327293 !important;
+  border: 1px solid #327293;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .details .border-bg,
+  .dashboard .main .border-bg {
+    border: 5px double #327293;
+  }
 }
 
 .dashboard .details .border,
@@ -370,12 +377,59 @@ body {
 
 .dashboard .details .txt__bg,
 .dashboard .main .txt__bg {
-  font-size: 20px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .details .txt__bg,
+  .dashboard .main .txt__bg {
+    font-size: 18px;
+  }
 }
 
 .dashboard .details .txt__bg > div:nth-child(2),
 .dashboard .main .txt__bg > div:nth-child(2) {
   color: #327293 !important;
+}
+
+.dashboard .details .ft,
+.dashboard .details .btn,
+.dashboard .main .ft,
+.dashboard .main .btn {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .details .ft,
+  .dashboard .details .btn,
+  .dashboard .main .ft,
+  .dashboard .main .btn {
+    font-size: 20px;
+  }
+}
+
+.dashboard .details .fgt h5,
+.dashboard .main .fgt h5 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .details .fgt h5,
+  .dashboard .main .fgt h5 {
+    font-size: 1.25rem;
+  }
+}
+
+.dashboard .details span,
+.dashboard .main span {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .details span,
+  .dashboard .main span {
+    font-size: 1rem;
+  }
 }
 
 .dashboard .details .sm__img,
@@ -595,4 +649,45 @@ body {
   height: 15px;
   border-radius: 50%;
   display: inline-block;
+}
+
+.dashboard .page .info .spn {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dashboard .page .info .bd {
+  width: 120px;
+}
+
+@media screen and (min-width: 480px) {
+  .dashboard .page .info .bd {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .dashboard .page .info .bd {
+    width: 280px;
+  }
+}
+
+.dashboard .page .info .id__details {
+  position: relative;
+}
+
+.dashboard .page .info .id__details .p__abs {
+  position: absolute;
+  background: #1a5674;
+  right: -10px;
+}
+
+.dashboard .page .info .clickable .hole {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #ec8724;
 }
