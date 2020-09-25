@@ -6,12 +6,12 @@ const Authenticate = () => {
 	return (
 		<div className="auth">
 			<div className="wrapper">
-				<header className="p-4 d-flex justify-content-center justify-content-md-between">
+				<header className="pt-4 pb-0 p-sm-4 d-flex flex-column flex-sm-row justify-content-center align-items-center justify-content-sm-between">
 					<Link className="d-inline-block" to="/" target="_blanc">
 						<img className="logo" src="/images/logo.png" alt="Logo" />
 					</Link>
 
-					<Link className="p-4 d-none d-md-inline-block hme" to="/home/dashboard" target="_blanc">
+					<Link className="pt-3 pb-0 p-sm-4 d-md-inline-block hme" to="/home/dashboard" target="_blanc">
 						Dashboard
 					</Link>
 				</header>
