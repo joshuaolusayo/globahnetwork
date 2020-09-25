@@ -34,6 +34,10 @@ a.bg-logo:hover {
   background: #007bff40;
 }
 
+.bg-dark-logo {
+  background: #040615;
+}
+
 body {
   background: #040615;
   font-family: "Lato", sans-serif;
@@ -292,7 +296,7 @@ body {
   font-size: 12px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .dashboard header {
     flex-wrap: wrap;
   }
@@ -362,7 +366,7 @@ body {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .details .border-bg,
   .dashboard .main .border-bg {
     border: 5px double #327293;
@@ -380,7 +384,7 @@ body {
   font-size: 12px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .details .txt__bg,
   .dashboard .main .txt__bg {
     font-size: 18px;
@@ -399,7 +403,7 @@ body {
   font-size: 14px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .details .ft,
   .dashboard .details .btn,
   .dashboard .main .ft,
@@ -413,7 +417,7 @@ body {
   font-size: 1rem;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .details .fgt h5,
   .dashboard .main .fgt h5 {
     font-size: 1.25rem;
@@ -425,7 +429,7 @@ body {
   font-size: 12px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .details span,
   .dashboard .main span {
     font-size: 1rem;
@@ -468,7 +472,7 @@ body {
   background-color: #ec8724cc;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .main .line {
     height: 20px;
   }
@@ -494,7 +498,7 @@ body {
   transform: rotate(-36deg);
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .main .line span:nth-child(1) {
     top: -50px;
     left: -27px;
@@ -513,7 +517,7 @@ body {
   background-color: #007bff40;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .main .rounded-box .hole {
     width: 25px;
     height: 25px;
@@ -524,7 +528,7 @@ body {
   font-size: 14px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .main .text-bg {
     font-size: 18px;
   }
@@ -669,25 +673,63 @@ body {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .dashboard .page .info .bd {
-    width: 280px;
+    width: 320px;
   }
 }
 
+.dashboard .page .info .bd:hover {
+  color: white;
+}
+
+.dashboard .page .info .bd:focus {
+  box-shadow: none;
+}
+
 .dashboard .page .info .id__details {
-  position: relative;
+  width: 170px;
 }
 
-.dashboard .page .info .id__details .p__abs {
-  position: absolute;
-  background: #1a5674;
-  right: -10px;
+@media screen and (min-width: 375px) {
+  .dashboard .page .info .id__details {
+    width: 200px;
+  }
 }
 
-.dashboard .page .info .clickable .hole {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  border: 1px solid #ec8724;
+@media screen and (min-width: 768px) {
+  .dashboard .page .info .id__details {
+    width: 320px;
+  }
+}
+
+.dashboard .page .info .border {
+  border: 1px solid #327293 !important;
+  border-radius: 0;
+}
+
+.dashboard .page .info .gbn__h .bg-light-col {
+  background: #32729336;
+}
+
+.dashboard .page .info .gbn__h .bg-light-col:hover {
+  background: #32729357;
+}
+
+.dashboard .page .info .gbn__h .dt {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #327293;
+}
+
+.dashboard .page .info .gbn__h .border-top {
+  border-color: #327293 !important;
+}
+
+.dashboard .page .table {
+  font-size: 14px;
+}
+
+.dashboard .page .table th {
+  border-top: none;
 }
