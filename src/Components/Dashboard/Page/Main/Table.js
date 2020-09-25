@@ -13,7 +13,7 @@ const Table = () => {
 									<th>Date</th>
 									<th>ID</th>
 									<th>Wallet</th>
-									<th>ETH / USD</th>
+									<th>ETH/USD</th>
 								</tr>
 							</thead>
 							<tbody>

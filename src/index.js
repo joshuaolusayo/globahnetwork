@@ -10,6 +10,7 @@ import Homepage from "./Components/Homepage";
 import Join from "./Components/Register";
 import Authenticate from "./Components/Authentication";
 import Dashboard from "./Components/Dashboard";
+import Page from "./Components/Dashboard/Page";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
 			<Route exact path="/join" component={Join}></Route>
 			<Route exact path="/auth" component={Authenticate}></Route>
 			<Route exact path="/home/dashboard" component={Dashboard}></Route>
+			<Route exact path="/home/page" component={Page}></Route>
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById("root")

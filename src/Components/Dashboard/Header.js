@@ -5,7 +5,9 @@ const Header = () => {
 	return (
 		<header className="d-flex container justify-content-between align-items-center pb-3">
 			<div className="row justify-content-center justify-content-md-between py-3 align-items-center w-100">
-				<img className="logo" src="/images/logo.png" alt="Logo" />
+				<Link className="d-inline-block" to="/" target="_blanc">
+					<img className="logo" src="/images/logo.png" alt="Logo" />
+				</Link>
 				<img className="globe" src="/images/globe.png" alt="Globe" />
 			</div>
 			<div className="flex-basis-100 w-100">
