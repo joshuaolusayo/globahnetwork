@@ -52,6 +52,11 @@ body {
 	color: $text-white;
 }
 
+.fall__back {
+	height: 100vh;
+	width: 100vw;
+}
+
 .wrapper {
 	// background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
 	// background-attachment: fixed;
@@ -756,10 +761,27 @@ body {
 		}
 		
 		.table {
-			font-size: 14px;
+			font-size: 12px;
+
+			@media screen and (min-width: 576px) {
+				font-size: 14px;
+			}
 
 			th {
 				border-top: none;
+			}
+
+			span {
+				font-size: 12px;
+
+				@media screen and (min-width: 576px) {
+					font-size: 14px;
+				}
+			}
+
+			td {
+				border-top: 1px dashed $logo-color;
+				border-bottom: 1px dashed $logo-color;
 			}
 		}
 	}

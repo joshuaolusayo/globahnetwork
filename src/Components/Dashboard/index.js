@@ -1,18 +1,21 @@
-import React from "react";
-import Details from "./Details/index";
-import Header from "./Header";
-import Main from "./Main/index";
+import React, { lazy, Suspense } from "react";
+
+const Header = lazy(() => import("./Header"));
+const Details = lazy(() => import("./Details"));
+const Main = lazy(() => import("./Main"));
 
 const Dashboard = () => {
 	return (
 		<div className="dashboard wrapper">
-			<Header />
-			<div className="content container">
-				<div className="row my-4">
-                    <Details />
-                    <Main />
-                </div>
-			</div>
+			<Suspense fallback={<div>Loading</div>}>
+				<Header />
+				<div className="content container">
+					<div className="row my-4">
+						<Details />
+						<Main />
+					</div>
+				</div>
+			</Suspense>
 		</div>
 	);
 };
