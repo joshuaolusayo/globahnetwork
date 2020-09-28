@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondContainer = () => {
 	return (
-		<div className="container px-sm-4 px-lg-0 py-lg-3 col-6 col-sm-6 col-lg-12 mt-lg-4">
+		<div className="container pr-0 pl-md-4 px-lg-0 py-lg-3 col-6 col-sm-6 col-lg-12 mt-lg-4">
 			<div className="d-flex flex-column justify-content-center text-center border px-3 py-2">
 				<div className="d-flex justify-content-between">
 					<span className="text-muted">Affiliate link</span>
