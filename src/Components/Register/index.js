@@ -16,7 +16,6 @@ const Join = () => {
 						Homepage
 					</Link>
 				</header>
-
 				<section className="container my-5 my-md-auto">
 					<div className="row no-gutters register">
 						<div className="col-md-6 d-none d-md-block">
@@ -57,7 +56,6 @@ const Join = () => {
 						</div>
 					</div>
 				</section>
-				
 				<p className="text-center mt-2">
 					Join us on telegram&nbsp;
 					<Link className="text-logo" to="/" target="_blanc">
