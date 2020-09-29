@@ -7,7 +7,16 @@ const Authenticate = () => {
 	return (
 		<div className="auth">
 			<div className="wrapper">
-				<Suspense fallback={<div>Loading</div>}>
+				<Suspense
+					fallback={
+						<div className="fall__back d-flex justify-content-center align-items-center">
+							<div className="spinner-grow text-yellow" role="status">
+								<span className="sr-only">Loading...</span>
+							</div>
+							<strong>Loading...</strong>
+						</div>
+					}
+				>
 					<header className="pt-4 pb-0 p-sm-4 d-flex flex-column flex-sm-row justify-content-center align-items-center justify-content-sm-between">
 						<Link className="d-inline-block" to="/" target="_blanc">
 							<img className="logo" src="/images/logo.png" alt="Logo" />
@@ -31,7 +40,7 @@ const Authenticate = () => {
 								<hr className="bg-white w-100" />
 
 								<form className="w-100" action="#">
-									<p>To view the enter account ID or ETH purse</p>
+									<p>To view the enter account ID or XLM purse</p>
 									<input
 										className="auth__input w-100 p-2 p-md-3 bg-logo border-0 text-center text-white"
 										type="text"

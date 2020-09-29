@@ -8,7 +8,7 @@ const FirstContainer = () => {
 			<div className="row justify-content-center">
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -23,7 +23,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -44,7 +44,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -59,7 +59,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -80,7 +80,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -95,7 +95,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -116,7 +116,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -131,7 +131,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -152,7 +152,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -181,7 +181,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -196,7 +196,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -217,7 +217,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -234,7 +234,7 @@ const FirstContainer = () => {
 							<span className="hole rounded-circle border mx-3"></span>
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-yellow rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -253,7 +253,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -268,7 +268,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -289,7 +289,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -318,7 +318,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -335,7 +335,7 @@ const FirstContainer = () => {
 							<span className="hole rounded-circle border mx-3"></span>
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-yellow rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -354,7 +354,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -369,7 +369,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -390,7 +390,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -405,7 +405,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -426,7 +426,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -441,7 +441,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -462,7 +462,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -477,7 +477,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"
@@ -498,7 +498,7 @@ const FirstContainer = () => {
 				</div>
 				<div className="col-6 col-5-4 col-sm-4 col-md-3 my-3">
 					<div className="">
-						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/">
+						<Link className="d-flex justify-content-between text-white p-2 bg-logo rounded" to="/home/page1">
 							<span className="no">1</span>
 							<span className="amt">0.01</span>
 							<span className="text-danger">
@@ -513,7 +513,7 @@ const FirstContainer = () => {
 						<div className="rounded-box d-flex justify-content-center">
 							<span className="hole rounded-circle border">
 								<Link
-									to="#"
+									to="/home/page1"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 									title="UID: 7958"
 									target="_blanc"

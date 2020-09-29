@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const FAQ = () => {
+	useEffect(() => {
+		AOS.init({ duration: 1000, once: true });
+	}, []);
+
 	return (
 		<div className="container-fluid faq accordion container py-5" id="gbn__faq">
 			<h2 className="font-weight-bold text-center text-uppercase">
@@ -10,7 +16,7 @@ const FAQ = () => {
 			</h2>
 			<div className="row justify-content-center">
 				<div className="d-flex flex-column justify-content-center col-sm-10 col-md-9 col-lg-10 px-4 px-md-auto">
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingOne">
 							<h5 className="mb-0">
 								<button
@@ -42,7 +48,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingTwo">
 							<h5 className="mb-0">
 								<button
@@ -76,7 +82,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingThree">
 							<h5 className="mb-0">
 								<button
@@ -100,7 +106,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingFour">
 							<h5 className="mb-0">
 								<button
@@ -131,7 +137,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingFive">
 							<h5 className="mb-0">
 								<button
@@ -164,7 +170,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingSix">
 							<h5 className="mb-0">
 								<button
@@ -206,7 +212,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingSeven">
 							<h5 className="mb-0">
 								<button
@@ -232,7 +238,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingEight">
 							<h5 className="mb-0">
 								<button
@@ -258,7 +264,7 @@ const FAQ = () => {
 							</div>
 						</div>
 					</div>
-					<div className="card bg-logo">
+					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingNine">
 							<h5 className="mb-0">
 								<button

@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 
 const Info = lazy(() => import("./Info"));
-const Table = lazy(() => import("./Table"));
+const Table = lazy(() => import("../Table"));
 
 const Main = () => {
 	return (
@@ -34,6 +34,10 @@ const Main = () => {
 					</div>
 				</div>
 				<Table />
+
+				<div className="notif__bar bg-logo rounded-circle text-center">
+					<i className="fa fa-bell text-white"></i>
+				</div>
 			</Suspense>
 		</div>
 	);

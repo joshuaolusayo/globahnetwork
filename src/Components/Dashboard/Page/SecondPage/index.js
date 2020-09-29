@@ -4,7 +4,7 @@ const Header = lazy(() => import("../../Header"));
 const Details = lazy(() => import("../../Details"));
 const Main = lazy(() => import("./Main"));
 
-const FirstPage = () => {
+const SecondPage = () => {
 	return (
 		<div className="dashboard wrapper">
 			<Suspense
@@ -29,4 +29,4 @@ const FirstPage = () => {
 	);
 };
 
-export default FirstPage;
+export default SecondPage;
