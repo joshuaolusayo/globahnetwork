@@ -59,7 +59,7 @@ const Header = () => {
 						<div className="col-lg-7 text-right pr-lg-2 font-neogrey-medium font-weight-bold fa-2x text-yellow">1420.2</div>
 						<div className="col-lg-5 text-uppercase sm">
 							participants <br />
-							have earned eth
+							have earned XLM
 						</div>
 					</div>
 					<div className="row no-gutters">

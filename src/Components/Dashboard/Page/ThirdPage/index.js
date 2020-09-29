@@ -1,10 +1,10 @@
 import React, { lazy, Suspense } from "react";
 
-const Header = lazy(() => import("./Header"));
-const Details = lazy(() => import("./Details"));
+const Header = lazy(() => import("../../Header"));
+const Details = lazy(() => import("../../Details"));
 const Main = lazy(() => import("./Main"));
 
-const Dashboard = () => {
+const ThirdPage = () => {
 	return (
 		<div className="dashboard wrapper">
 			<Suspense
@@ -29,4 +29,4 @@ const Dashboard = () => {
 	);
 };
 
-export default Dashboard;
+export default ThirdPage;

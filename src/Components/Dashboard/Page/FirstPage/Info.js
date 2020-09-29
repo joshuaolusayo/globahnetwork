@@ -20,9 +20,13 @@ const Info = () => {
 					<div className="d-flex flex-column flex-md-row py-2 justify-content-center align-items-center">
 						<div className="col d-flex justify-content-center align-items-center flex-md-wrap">
 							<div className="d-flex flex-column justify-content-between align-items-center">
-								<i className="fa fa-caret-up"></i>
+								<Link className="text-white" to="/home/page1">
+									<i className="fa fa-caret-up"></i>
+								</Link>
 								<span className="text-yellow text-uppercase">History</span>
-								<i className="fa fa-caret-down"></i>
+								<Link className="text-white" to="/home/page1">
+									<i className="fa fa-caret-down"></i>
+								</Link>
 							</div>
 							<select className="mx-1 rounded" name="history" id="history">
 								<option value="1">1</option>
@@ -44,14 +48,14 @@ const Info = () => {
 										$ <span>0</span>
 									</span>
 									<span className="bg-yellow p-1 shadow-lg rounded bg-dark-logo ml-1">
-										0 <span>eth</span>
+										0 <span>XLM</span>
 									</span>
 								</span>
 							</button>
 							<div className="border mt-3 gbn__h d-flex flex-column rounded">
 								<div className="w-100 p-2 bg-light-col rounded d-flex justify-content-between align-items-end text-center">
 									<div className="dt rounded-circle">
-										<Link className="d-inline-block w-100 h-100 bg-yellow rounded-circle" to="/"></Link>
+										<Link className="d-inline-block w-100 h-100 bg-yellow rounded-circle" to="/home/page1"></Link>
 									</div>
 									<div className="d-flex justify-content-end">
 										<div>

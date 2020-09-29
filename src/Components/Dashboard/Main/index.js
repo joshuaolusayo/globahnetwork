@@ -7,7 +7,16 @@ const ThirdContainer = lazy(() => import("./ThirdContainer"));
 const Main = () => {
 	return (
 		<div className="col-lg-9 main mt-5 mt-lg-0 border-bg">
-			<Suspense fallback={<div>Loading</div>}>
+			<Suspense
+				fallback={
+					<div className="fall__back d-flex justify-content-center align-items-center">
+						<div className="spinner-grow text-yellow" role="status">
+							<span className="sr-only">Loading...</span>
+						</div>
+						<strong>Loading...</strong>
+					</div>
+				}
+			>
 				<FirstContainer />
 
 				<div className="d-flex flex-column flex-sm-row flex-wrap justify-content-center align-items-center text-center my-3 py-3 bg-transparent text-uppercase font-weight-bold">

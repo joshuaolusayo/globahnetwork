@@ -57,7 +57,7 @@ const PayingSystem = () => {
 			</div>
 			<div className="d-flex justify-content-center my-4">
 				<Link className="d-inline-block px-4 py-3 bg-yellow rounded text-white text-uppercase" to="/" target="_blanc">
-					Only 0.03 eth to join
+					Only 0.03 XLM to join
 				</Link>
 			</div>
 		</section>

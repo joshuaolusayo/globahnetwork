@@ -472,9 +472,7 @@ body {
 			}
 		}
 
-		.line
-		// .f__line
-		{
+		.line {
 			@media screen and (min-width: 768px) {
 				height: 20px;
 			}
@@ -694,6 +692,12 @@ body {
 
 	.page {
 		.info {
+			@media screen and (max-width: 767px) {
+				.max__w {
+					max-width: 230px;
+				}
+			}
+
 			.spn {
 				width: 25px;
 				height: 25px;
@@ -758,8 +762,547 @@ body {
 					border-color: $logo-color !important;
 				}
 			}
+
+			&.second__box {
+				.first__line {
+					span {
+						height: 50px;
+						border-left: 1px dashed $logo-color;
+						position: relative;
+						top: -5px;
+
+						&:nth-child(1) {
+							transform: rotate(40deg);
+							left: 55px;
+						}
+
+						&:nth-child(2) {
+							transform: rotate(-40deg);
+							left: -55px;
+						}
+					}
+				}
+
+				.first__row {
+					span {
+						width: 25px;
+						height: 25px;
+						top: -12px;
+						position: relative;
+
+						&:nth-child(1) {
+							left: 25px;
+						}
+
+						&:nth-child(2) {
+							right: 25px;
+						}
+					}
+				}
+
+				.sec__d {
+					.secd__line {
+						span {
+							height: 40px;
+							position: relative;
+							border-left: 1px dashed $logo-color;
+							top: -15px;
+						}
+
+						.first {
+							span {
+								&:first-child {
+									left: 25px;
+									transform: rotate(20deg);
+								}
+
+								&:last-child {
+									left: 45px;
+									transform: rotate(-20deg);
+								}
+							}
+						}
+
+						.second {
+							span {
+								&:first-child {
+									right: 40px;
+									transform: rotate(20deg);
+								}
+
+								&:last-child {
+									right: 20px;
+									transform: rotate(-20deg);
+								}
+							}
+						}
+					}
+
+					.secd__row {
+						position: relative;
+						top: -25px;
+
+						span {
+							width: 25px;
+							height: 25px;
+							position: relative;
+						}
+
+						.first {
+							span:nth-child(2) {
+								left: 20px;
+							}
+						}
+
+						.second {
+							span:nth-child(1) {
+								left: -20px;
+							}
+						}
+					}
+				}
+			}
+
+			&.third__box {
+				.first__line {
+					@media screen and (min-width: 768px) {
+						position: relative;
+						top: -5px;
+					}
+
+					span {
+						height: 15px;
+						border-left: 1px solid $logo-color;
+						position: relative;
+
+						@media screen and (min-width: 768px) {
+							height: 50px;
+						}
+
+						&:nth-child(1) {
+							left: 36px;
+							transform: rotate(28deg);
+
+							@media screen and (min-width: 768px) {
+								left: 25px;
+								transform: rotate(40deg);
+							}
+						}
+
+						&:nth-child(2) {
+							right: 36px;
+							transform: rotate(-28deg);
+
+							@media screen and (min-width: 768px) {
+								right: 25px;
+								transform: rotate(-40deg);
+							}
+						}
+					}
+				}
+
+				.first__row {
+					position: relative;
+					@media screen and (min-width: 768px) {
+						top: -10px;
+					}
+
+					span {
+						width: 18px;
+						height: 18px;
+						position: relative;
+
+						@media screen and (min-width: 768px) {
+							width: 40px;
+							height: 40px;
+						}
+
+						&:nth-child(1) {
+							left: 20px;
+
+							@media screen and (min-width: 768px) {
+								left: -20px;
+							}
+						}
+
+						&:nth-child(2) {
+							right: 20px;
+
+							@media screen and (min-width: 768px) {
+								right: -20px;
+							}
+						}
+					}
+				}
+
+				.thd {
+					position: relative;
+
+					@media screen and (min-width: 768px) {
+						top: -18px;
+					}
+
+					.secd__line {
+						span {
+							height: 20px;
+							position: relative;
+							border-left: 1px dashed $logo-color;
+
+							@media screen and (min-width: 768px) {
+								height: 50px;
+							}
+						}
+
+						.first {
+							span {
+								&:first-child {
+									left: 17px;
+									transform: rotate(35deg);
+
+									@media screen and (min-width: 768px) {
+										left: -30px;
+										transform: rotate(30deg);
+									}
+								}
+
+								&:last-child {
+									left: 34px;
+									transform: rotate(-35deg);
+
+									@media screen and (min-width: 768px) {
+										left: 20px;
+										transform: rotate(-30deg);
+									}
+								}
+							}
+						}
+
+						.second {
+							span {
+								&:first-child {
+									right: 32px;
+									transform: rotate(35deg);
+
+									@media screen and (min-width: 768px) {
+										right: 20px;
+										transform: rotate(30deg);
+									}
+								}
+
+								&:last-child {
+									right: 16px;
+									transform: rotate(-35deg);
+
+									@media screen and (min-width: 768px) {
+										right: -30px;
+										transform: rotate(-30deg);
+									}
+								}
+							}
+						}
+					}
+
+					.third__row {
+						span {
+							width: 18px;
+							height: 18px;
+							position: relative;
+							top: -7px;
+
+							@media screen and (min-width: 768px) {
+								width: 40px;
+								height: 40px;
+							}
+						}
+						.first {
+							span {
+								&:first-child {
+									left: -5px;
+
+									@media screen and (min-width: 768px) {
+										left: -75px;
+									}
+								}
+
+								&:last-child {
+									right: -15px;
+
+									@media screen and (min-width: 768px) {
+										right: 20px;
+									}
+								}
+							}
+						}
+
+						.second {
+							span {
+								&:first-child {
+									left: -20px;
+
+									@media screen and (min-width: 768px) {
+										left: 10px;
+									}
+								}
+
+								&:last-child {
+									@media screen and (min-width: 768px) {
+										right: -65px;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.fth {
+					.thd__line {
+						@media screen and (min-width: 768px) {
+							position: relative;
+							top: -20px;
+						}
+					}
+
+					span {
+						height: 20px;
+						border-left: 1px dashed $logo-color;
+						position: relative;
+						top: -8px;
+
+						@media screen and (min-width: 768px) {
+							height: 40px;
+						}
+					}
+
+					.first {
+						.ft {
+							span {
+								&:first-child {
+									left: -9px;
+									transform: rotate(20deg);
+
+									@media screen and (min-width: 768px) {
+										left: -80px;
+										transform: rotate(15deg);
+									}
+								}
+
+								&:last-child {
+									right: -10px;
+									transform: rotate(-15deg);
+
+									@media screen and (min-width: 768px) {
+										left: -35px;
+										transform: rotate(-15deg);
+									}
+								}
+							}
+						}
+
+						.sd {
+							span {
+								&:first-child {
+									left: 30px;
+									transform: rotate(25deg);
+
+									@media screen and (min-width: 768px) {
+										left: 20px;
+										transform: rotate(15deg);
+									}
+								}
+
+								&:last-child {
+									right: -50px;
+									transform: rotate(-25deg);
+
+									@media screen and (min-width: 768px) {
+										left: 54px;
+										transform: rotate(-15deg);
+									}
+								}
+							}
+						}
+					}
+
+					.second {
+						.ft {
+							span {
+								&:first-child {
+									left: -55px;
+									transform: rotate(25deg);
+
+									@media screen and (min-width: 768px) {
+										left: -60px;
+										transform: rotate(15deg);
+									}
+								}
+
+								&:last-child {
+									right: 40px;
+									transform: rotate(-20deg);
+
+									@media screen and (min-width: 768px) {
+										left: -27px;
+										transform: rotate(-15deg);
+									}
+								}
+							}
+						}
+
+						.sd {
+							span {
+								&:first-child {
+									left: -15px;
+									transform: rotate(20deg);
+
+									@media screen and (min-width: 768px) {
+										left: 30px;
+										transform: rotate(15deg);
+									}
+								}
+
+								&:last-child {
+									right: 0px;
+									transform: rotate(-30deg);
+
+									@media screen and (min-width: 768px) {
+										left: 65px;
+										transform: rotate(-15deg);
+									}
+								}
+							}
+						}
+					}
+
+					.last__row {
+						position: relative;
+						top: -5px;
+
+						@media screen and (min-width: 768px) {
+							top: -25px;
+						}
+
+						span {
+							width: 18px;
+							height: 18px;
+
+							@media screen and (min-width: 768px) {
+								width: 35px;
+								height: 35px;
+							}
+						}
+
+						@media screen and (min-width: 768px) {
+							.fdrw,
+							.ldrw {
+								display: flex;
+								flex-wrap: nowrap;
+							}
+						}
+
+						.box1 {
+							.fdrw {
+								span {
+									&:first-child {
+										left: -25px;
+
+										@media screen and (min-width: 768px) {
+											left: -100px;
+										}
+									}
+
+									&:last-child {
+										left: -15px;
+
+										@media screen and (min-width: 768px) {
+											left: -87px;
+										}
+									}
+								}
+							}
+
+							.ldrw {
+								span {
+									&:first-child {
+										left: -12px;
+
+										@media screen and (min-width: 768px) {
+											left: -72px;
+										}
+									}
+
+									&:last-child {
+										left: -5px;
+
+										@media screen and (min-width: 768px) {
+											left: -67px;
+										}
+									}
+								}
+							}
+						}
+
+						.box2 {
+							.fdrw {
+								span {
+									&:first-child {
+										left: 0;
+
+										@media screen and (min-width: 768px) {
+											left: -60px;
+										}
+										
+										@media screen and (min-width: 1200px) {
+											left: -30px;
+										}
+									}
+
+									&:last-child {
+										left: 5px;
+
+										@media screen and (min-width: 768px) {
+											left: -57px;
+										}
+										
+										@media screen and (min-width: 1200px) {
+											left: -10px;
+										}
+									}
+								}
+							}
+
+							.ldrw {
+								span {
+									&:first-child {
+										left: 5px;
+
+										@media screen and (min-width: 768px) {
+											left: -45px;
+										}
+										
+										@media screen and (min-width: 1200px) {
+											left: 0px;
+										}
+									}
+
+									&:last-child {
+										left: 18px;
+
+										@media screen and (min-width: 768px) {
+											left: -35px;
+										}
+										
+										@media screen and (min-width: 1200px) {
+											left: 15px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
-		
+
 		.table {
 			font-size: 12px;
 
@@ -782,6 +1325,21 @@ body {
 			td {
 				border-top: 1px dashed $logo-color;
 				border-bottom: 1px dashed $logo-color;
+			}
+		}
+
+		.notif__bar {
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			bottom: 20px;
+			right: 20px;
+
+			@media screen and (min-width: 768px) {
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
 			}
 		}
 	}

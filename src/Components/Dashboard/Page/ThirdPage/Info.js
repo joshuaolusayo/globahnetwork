@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Info = () => {
 	return (
-		<div className="border-bg p-1 p-sm-2 info second__box">
+		<div className="border-bg p-1 p-sm-2 info third__box">
 			<h3 className="font-neogrey font-weight-bold font-italic text-center my-4 mb-lg-5">Global Network</h3>
 			<div className="p__abs d-flex justify-content-between align-items-center">
 				<div className="d-flex flex-nowrap ab">
-					<Link to="/home/page2" className="bg-yellow text-logo spn d-inline-block rounded-circle">
+					<Link to="/home/page3" className="bg-yellow text-logo spn d-inline-block rounded-circle">
 						<i className="fa fa-arrow-left"></i>
 					</Link>
 					<span className="bg-logo rounded spn d-inline-block bg">15</span>
@@ -16,11 +16,11 @@ const Info = () => {
 				<div className="d-flex flex-column flex-md-row py-2 justify-content-center align-items-center w-100 max__w">
 					<div className="col-md-4 d-flex justify-content-center align-items-center flex-md-wrap">
 						<div className="d-flex flex-column justify-content-between align-items-center">
-							<Link className="text-white" to="/home/page2">
+							<Link className="text-white" to="/home/page3">
 								<i className="fa fa-caret-up"></i>
 							</Link>
 							<span className="text-yellow text-uppercase">History</span>
-							<Link className="text-white" to="/home/page2">
+							<Link className="text-white" to="/home/page3">
 								<i className="fa fa-caret-down"></i>
 							</Link>
 						</div>
@@ -55,17 +55,17 @@ const Info = () => {
 						<div className="d-flex flex-column">
 							<div>
 								<div className="first__line d-flex justify-content-between">
-									<span className="pl-1"></span>
-									<span className="pr-1"></span>
+									<span className=""></span>
+									<span className=""></span>
 								</div>
 								<div className="first__row d-flex justify-content-between">
 									<span className="d-inline-block border rounded-circle">
-										{/* <Link className="rounded-circle d-inline-block w-100 h-100" to="/"></Link> */}
+										<Link className="rounded-circle d-inline-block w-100 h-100" to="/home/page3"></Link>
 									</span>
 									<span className="d-inline-block border rounded-circle"></span>
 								</div>
 							</div>
-							<div className="sec__d">
+							<div className="thd">
 								<div className="secd__line d-flex justify-content-between">
 									<div className="first">
 										<span className="d-inline-block pl-1"></span>
@@ -76,14 +76,62 @@ const Info = () => {
 										<span className="d-inline-block pr-1"></span>
 									</div>
 								</div>
-								<div className="secd__row d-flex justify-content-between">
-									<div className="first">
+								<div className="third__row d-flex justify-content-between">
+									<div className="first d-flex">
 										<span className="d-inline-block border rounded-circle"></span>
 										<span className="d-inline-block border rounded-circle"></span>
 									</div>
-									<div className="second">
+									<div className="second d-flex">
 										<span className="d-inline-block border rounded-circle"></span>
 										<span className="d-inline-block border rounded-circle"></span>
+									</div>
+								</div>
+							</div>
+							<div className="fth">
+								<div className="thd__line d-flex justify-content-between">
+									<div className="first d-flex justify-content-between">
+										<div className="ft">
+											<span className="d-inline-block"></span>
+											<span className="d-inline-block"></span>
+										</div>
+										<div className="sd">
+											<span className="d-inline-block"></span>
+											<span className="d-inline-block"></span>
+										</div>
+									</div>
+									<div className="second d-flex justify-content-between">
+										<div className="ft">
+											<span className="d-inline-block"></span>
+											<span className="d-inline-block"></span>
+										</div>
+										<div className="sd">
+											<span className="d-inline-block"></span>
+											<span className="d-inline-block"></span>
+										</div>
+									</div>
+								</div>
+								<div className="last__row d-flex justify-content-between">
+									<div className="box1 d-flex justify-content-between">
+										<div className="fdrw">
+											<span className="d-inline-block rounded-circle border">
+												<Link className="d-inline-block w-100 h-100 bg-yellow rounded-circle" to="/home/page3"></Link>
+											</span>
+											<span className="d-inline-block rounded-circle border"></span>
+										</div>
+										<div className="ldrw">
+											<span className="d-inline-block rounded-circle border"></span>
+											<span className="d-inline-block rounded-circle border"></span>
+										</div>
+									</div>
+									<div className="box2 d-flex justify-content-between">
+										<div className="fdrw">
+											<span className="d-inline-block rounded-circle border"></span>
+											<span className="d-inline-block rounded-circle border"></span>
+										</div>
+										<div className="ldrw">
+											<span className="d-inline-block rounded-circle border"></span>
+											<span className="d-inline-block rounded-circle border"></span>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -108,7 +156,7 @@ const Info = () => {
 
 				<div className="d-flex flex-nowrap ab">
 					<span className="bg-logo rounded spn d-inline-block bg">15</span>
-					<Link to="/home/page2" className="bg-yellow text-logo spn d-inline-block rounded-circle">
+					<Link to="/" className="bg-yellow text-logo spn d-inline-block rounded-circle">
 						<i className="fa fa-arrow-right"></i>
 					</Link>
 				</div>

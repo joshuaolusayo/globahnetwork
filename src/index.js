@@ -12,6 +12,7 @@ import Authenticate from "./Components/Authentication";
 import Dashboard from "./Components/Dashboard";
 import FirstPage from "./Components/Dashboard/Page/FirstPage/index";
 import SecondPage from "./Components/Dashboard/Page/SecondPage/index";
+import ThirdPage from "./Components/Dashboard/Page/ThirdPage/index";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
 			<Route exact path="/home/dashboard" component={Dashboard}></Route>
 			<Route exact path="/home/page1" component={FirstPage}></Route>
 			<Route exact path="/home/page2" component={SecondPage}></Route>
+			<Route exact path="/home/page3" component={ThirdPage}></Route>
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById("root")

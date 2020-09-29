@@ -14,7 +14,7 @@ const Table = () => {
 									<th>Date</th>
 									<th>ID</th>
 									<th>Wallet</th>
-									<th>ETH/USD</th>
+									<th>XLM/USD</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -35,7 +35,7 @@ const Table = () => {
 											<span title="">0x6026...e189d3</span>
 										</div>
 									</td>
-									<td title="ETH: 0.000 | EUR: 0">
+									<td title="XLM: 0.000 | EUR: 0">
 										<span>0.01 / 3.95 $</span>
 									</td>
 								</tr>
@@ -56,7 +56,7 @@ const Table = () => {
 											<span title="">0x6026...e189d3</span>
 										</div>
 									</td>
-									<td title="ETH: 0.000 | EUR: 0">
+									<td title="XLM: 0.000 | EUR: 0">
 										<span>0.01 / 3.95 $</span>
 									</td>
 								</tr>
