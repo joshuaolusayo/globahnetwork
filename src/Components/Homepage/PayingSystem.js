@@ -13,7 +13,7 @@ const PayingSystem = () => {
 				<div className="col-sm-10 col-md-8 col-lg-5 mx-2 bg-logo card display__card shadow mt-3">
 					<div className="d-flex flex-column justify-content-center align-items-center p-3 px-lg-4 py-lg-5">
 						<h3>
-							GBN <span className="text-yellow">X1</span>
+							XLM <span className="text-yellow">X1</span>
 						</h3>
 						<img className="card-img" src="/images/01.png" alt="first img" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
@@ -35,7 +35,7 @@ const PayingSystem = () => {
 				<div className="col-sm-10 col-md-8 col-lg-5 mx-2 bg-logo card display__card shadow mt-3">
 					<div className="d-flex flex-column justify-content-center align-items-center p-3 px-lg-4 py-lg-5">
 						<h3>
-							GBN <span className="text-yellow">X1</span>
+							XLM <span className="text-yellow">X1</span>
 						</h3>
 						<img className="card-img" src="/images/02.png" alt="first img" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
