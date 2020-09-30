@@ -30,8 +30,8 @@ const SecondContainer = () => {
 			</div>
 			<div className="d-flex flex-column justify-content-center text-center border px-1 px-sm-3 pt-2 pt-sm-4 pb-2 mt-5 fgt">
 				<h5>Your Stellar wallet</h5>
-				<h6 className="text-muted" id="copy-2">
-					0x8AE...FJH6k
+				<h6 className="text-muted cpy px-2" id="copy-2">
+					0x8AE...jkhgvfcdnbFJH6k
 				</h6>
 				<div className="d-flex justify-content-center">
 					<button className="btn rounded text-white mg__n5">
@@ -49,7 +49,7 @@ const SecondContainer = () => {
 			</div>
 			<div className="d-flex flex-column justify-content-center text-center border px-1 px-sm-3 pt-2 pt-sm-4 pb-2 mt-5 fgt">
 				<h5>Your Stellar wallet</h5>
-				<h6 className="text-muted" id="copy-3">
+				<h6 className="text-muted px-2 cpy" id="copy-3">
 					0x8AE...FJH6k
 				</h6>
 				<div className="d-flex justify-content-center">

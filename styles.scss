@@ -458,6 +458,12 @@ body {
 			border: none;
 			padding: 0;
 		}
+
+		.cpy {
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+		}
 	}
 
 	.main {
@@ -1261,7 +1267,7 @@ body {
 										@media screen and (min-width: 768px) {
 											left: -60px;
 										}
-										
+
 										@media screen and (min-width: 1200px) {
 											left: -30px;
 										}
@@ -1273,7 +1279,7 @@ body {
 										@media screen and (min-width: 768px) {
 											left: -57px;
 										}
-										
+
 										@media screen and (min-width: 1200px) {
 											left: -10px;
 										}
@@ -1289,7 +1295,7 @@ body {
 										@media screen and (min-width: 768px) {
 											left: -45px;
 										}
-										
+
 										@media screen and (min-width: 1200px) {
 											left: 0px;
 										}
@@ -1301,7 +1307,7 @@ body {
 										@media screen and (min-width: 768px) {
 											left: -35px;
 										}
-										
+
 										@media screen and (min-width: 1200px) {
 											left: 15px;
 										}
@@ -1360,7 +1366,8 @@ body {
 			display: none;
 		}
 
-		&:focus, &:focus-within {
+		&:focus,
+		&:focus-within {
 			outline: none;
 			box-shadow: none;
 
