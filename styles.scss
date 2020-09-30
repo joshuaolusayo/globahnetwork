@@ -57,6 +57,10 @@ body {
 	width: 100vw;
 }
 
+.aos-init {
+	overflow: hidden !important;
+}
+
 .wrapper {
 	// background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
 	// background-attachment: fixed;
@@ -1346,6 +1350,21 @@ body {
 				width: 50px;
 				height: 50px;
 				line-height: 50px;
+			}
+		}
+	}
+
+	.cop_y {
+		.check {
+			display: none;
+		}
+
+		&:focus, &:focus-within {
+			outline: none;
+			box-shadow: none;
+
+			.check {
+				display: inline;
 			}
 		}
 	}

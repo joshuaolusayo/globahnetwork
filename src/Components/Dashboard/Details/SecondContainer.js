@@ -19,8 +19,11 @@ const SecondContainer = () => {
 
 				<div className="d-flex justify-content-center">
 					<copy-button target-element="#copy-1">
-						<button type="button" className="btn py-1 px-2 bg-yellow text-white mg__n5">
-							Copy
+						<button type="button" className="btn py-1 px-2 bg-yellow text-white mg__n5 cop_y">
+							Copy{" "}
+							<span className="check">
+								<i className="fa fa-check text-logo"></i>
+							</span>
 						</button>
 					</copy-button>
 				</div>
@@ -34,7 +37,12 @@ const SecondContainer = () => {
 					<button className="btn rounded text-white mg__n5">
 						<span className="bg-logo p-1 p-sm-2 rounded-left text-capitalize">to XLM</span>
 						<copy-button target-element="#copy-2">
-							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white">Copy</span>
+							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
+								Copy &nbsp;
+								<span className="check">
+									<i className="fa fa-check text-logo"></i>
+								</span>
+							</span>
 						</copy-button>
 					</button>
 				</div>
@@ -48,7 +56,12 @@ const SecondContainer = () => {
 					<button className="btn rounded text-white mg__n5">
 						<span className="bg-logo p-1 p-sm-2 rounded-left text-capitalize">to XLM</span>
 						<copy-button target-element="#copy-3">
-							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white">Copy</span>
+							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
+								Copy &nbsp;
+								<span className="check">
+									<i className="fa fa-check text-logo"></i>
+								</span>
+							</span>
 						</copy-button>
 					</button>
 				</div>

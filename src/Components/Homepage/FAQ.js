@@ -15,7 +15,7 @@ const FAQ = () => {
 				<span className="text-yellow">(faq)</span>
 			</h2>
 			<div className="row justify-content-center">
-				<div className="d-flex flex-column justify-content-center col-sm-10 col-md-9 col-lg-10 px-4 px-md-auto">
+				<div className="d-flex flex-column justify-content-center col-sm-10 col-md-9 col-lg-10 px-4 px-md-auto overflow-hidden">
 					<div className="card bg-logo" data-aos="fade-right">
 						<div className="card-header" id="headingOne">
 							<h5 className="mb-0">

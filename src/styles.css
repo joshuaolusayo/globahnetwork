@@ -49,6 +49,10 @@ body {
   width: 100vw;
 }
 
+.aos-init {
+  overflow: hidden !important;
+}
+
 .wrapper {
   background-color: #040615;
 }
@@ -1323,4 +1327,17 @@ body {
     height: 50px;
     line-height: 50px;
   }
+}
+
+.dashboard .cop_y .check {
+  display: none;
+}
+
+.dashboard .cop_y:focus, .dashboard .cop_y:focus-within {
+  outline: none;
+  box-shadow: none;
+}
+
+.dashboard .cop_y:focus .check, .dashboard .cop_y:focus-within .check {
+  display: inline;
 }
