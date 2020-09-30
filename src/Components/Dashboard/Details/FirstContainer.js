@@ -7,7 +7,7 @@ const FirstContainer = () => {
 				<img className="sm__img" src="/images/ether.png" alt="ether" />
 				<div className="d-flex justify-content-between w-100 txt__bg">
 					<div className="text-uppercase font-weight-bold font-neogrey-medium">id 7</div>
-					<div>
+					<div className="font-neogrey-medium">
 						3
 						<span>
 							<i className="fa fa-refresh"></i>

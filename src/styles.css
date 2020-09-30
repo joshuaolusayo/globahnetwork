@@ -458,6 +458,13 @@ body {
   white-space: nowrap;
 }
 
+.dashboard .details copy-button > button:first-child,
+.dashboard .main copy-button > button:first-child {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 @media screen and (min-width: 500px) and (max-width: 576px) {
   .dashboard .main .col-5-4 {
     flex: 0 0 33.333333%;

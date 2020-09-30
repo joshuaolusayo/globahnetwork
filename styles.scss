@@ -447,6 +447,12 @@ body {
 			overflow: hidden;
 			white-space: nowrap;
 		}
+
+		copy-button > button:first-child {
+			background-color: transparent;
+			border: none;
+			padding: 0;
+		}
 	}
 
 	.main {
