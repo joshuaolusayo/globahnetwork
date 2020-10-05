@@ -27,7 +27,7 @@ const About = () => {
 			</div>
 			<div className="mt-5 text-center container">
 				<h2 className="font-weight-bold">
-					<span className="text-yellow">international crowdfunding</span>
+					<span className="text-pry">international crowdfunding</span>
 					<br />
 					<span className="">the new generation platform</span>
 				</h2>
@@ -38,42 +38,42 @@ const About = () => {
 				</p>
 				<div className="row jumbotron bg-transparent">
 					<div className="col-md-6 text-left items mb-3" data-aos="fade-right">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.
 						</p>
 					</div>
 					<div className="col-md-6 text-left items mb-3" data-aos="fade-left">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.
 						</p>
 					</div>
 					<div className="col-md-6 text-left items mb-3" data-aos="fade-right">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.
 						</p>
 					</div>
 					<div className="col-md-6 text-left items mb-3" data-aos="fade-left">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.
 						</p>
 					</div>
 					<div className="col-md-6 text-left items mb-3" data-aos="fade-right">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.
 						</p>
 					</div>
 					<div className="col-md-6 text-left items mb-3"  data-aos="fade-left">
-						<h4 className="text-yellow">Zero Risk Factors</h4>
+						<h4 className="text-pry">Zero Risk Factors</h4>
 						<p className=" mb-0">
 							On July 29, 2020, Rapido developers deployed a self-executing smart contract on the Stellar Blockchain that
 							exists in perpetuity and cannot be modified by any entity.

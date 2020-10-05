@@ -10,7 +10,7 @@ const SecondPage = () => {
 			<Suspense
 				fallback={
 					<div className="fall__back d-flex justify-content-center align-items-center">
-						<div className="spinner-grow text-yellow" role="status">
+						<div className="spinner-grow text-pry" role="status">
 							<span className="sr-only">Loading...</span>
 						</div>
 						<strong>Loading...</strong>

@@ -53,7 +53,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -106,7 +106,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -159,7 +159,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -212,7 +212,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -265,7 +265,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -318,7 +318,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -337,7 +337,7 @@ const SecondContainer = () => {
 							<span className="hole rounded-circle border ml-3 ml-md-4 mt-3 first-child">
 								<Link
 									to="/home/page2"
-									className="d-inline-block w-100 h-100 bg-yellow rounded-circle border mb-1"
+									className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
 									title="UID: 7958"
 									target="_blanc"
 								></Link>
@@ -371,7 +371,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -390,7 +390,7 @@ const SecondContainer = () => {
 							<span className="hole rounded-circle border ml-3 ml-md-4 mt-3 first-child">
 								<Link
 									to="/home/page2"
-									className="d-inline-block w-100 h-100 bg-yellow rounded-circle border mb-1"
+									className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
 									title="UID: 7958"
 									target="_blanc"
 								></Link>
@@ -409,7 +409,7 @@ const SecondContainer = () => {
 							<span className="hole rounded-circle border mr-3 ml-md-4 mt-3 first-child">
 								<Link
 									to="/home/page2"
-									className="d-inline-block w-100 h-100 bg-yellow rounded-circle border mb-1"
+									className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
 									title="UID: 7958"
 									target="_blanc"
 								></Link>
@@ -424,7 +424,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -443,7 +443,7 @@ const SecondContainer = () => {
 							<span className="hole rounded-circle border ml-3 ml-md-4 mt-3 first-child">
 								<Link
 									to="/home/page2"
-									className="d-inline-block w-100 h-100 bg-yellow rounded-circle border mb-1"
+									className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
 									title="UID: 7958"
 									target="_blanc"
 								></Link>
@@ -477,7 +477,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>
@@ -511,7 +511,7 @@ const SecondContainer = () => {
 								950 <i className="fa fa-user text-logo"></i>
 							</span>
 							<span className="ml-2 ml-md-3">
-								440 <i className="fa fa-refresh text-yellow"></i>
+								440 <i className="fa fa-refresh text-pry"></i>
 							</span>
 						</div>
 					</div>

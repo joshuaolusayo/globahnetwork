@@ -7,7 +7,7 @@ const Info = () => {
 			<h3 className="font-neogrey font-weight-bold font-italic text-center my-4 mb-lg-5">Global Network</h3>
 			<div className="p__abs d-flex justify-content-between align-items-center">
 				<div className="d-flex flex-nowrap ab">
-					<Link to="/" className="bg-yellow text-logo spn d-inline-block rounded-circle">
+					<Link to="/" className="bg-pry text-logo spn d-inline-block rounded-circle">
 						<i className="fa fa-arrow-left"></i>
 					</Link>
 					<span className="bg-logo rounded spn d-inline-block bg">15</span>
@@ -23,7 +23,7 @@ const Info = () => {
 								<Link className="text-white" to="/home/page1">
 									<i className="fa fa-caret-up"></i>
 								</Link>
-								<span className="text-yellow text-uppercase">History</span>
+								<span className="text-pry text-uppercase">History</span>
 								<Link className="text-white" to="/home/page1">
 									<i className="fa fa-caret-down"></i>
 								</Link>
@@ -32,8 +32,8 @@ const Info = () => {
 								<option value="1">1</option>
 								<option value="2">2</option>
 							</select>
-							<i className="fa fa-database text-yellow"></i>
-							<i className="fa fa-refresh text-yellow px-1 px-sm-2"></i>
+							<i className="fa fa-database text-pry"></i>
+							<i className="fa fa-refresh text-pry px-1 px-sm-2"></i>
 							<span>444</span>
 						</div>
 
@@ -44,10 +44,10 @@ const Info = () => {
 									<span className="text-white">ID 7860</span>
 								</span>
 								<span className="w-100 text-white d-flex justify-content-end py-1">
-									<span className="bg-yellow p-1 shadow-lg rounded bg-dark-logo">
+									<span className="bg-pry p-1 shadow-lg rounded bg-dark-logo">
 										$ <span>0</span>
 									</span>
-									<span className="bg-yellow p-1 shadow-lg rounded bg-dark-logo ml-1">
+									<span className="bg-pry p-1 shadow-lg rounded bg-dark-logo ml-1">
 										0 <span>XLM</span>
 									</span>
 								</span>
@@ -55,7 +55,7 @@ const Info = () => {
 							<div className="border mt-3 gbn__h d-flex flex-column rounded">
 								<div className="w-100 p-2 bg-light-col rounded d-flex justify-content-between align-items-end text-center">
 									<div className="dt rounded-circle">
-										<Link className="d-inline-block w-100 h-100 bg-yellow rounded-circle" to="/home/page1"></Link>
+										<Link className="d-inline-block w-100 h-100 bg-pry rounded-circle" to="/home/page1"></Link>
 									</div>
 									<div className="d-flex justify-content-end">
 										<div>
@@ -63,20 +63,7 @@ const Info = () => {
 											<span className="pl-1">0</span>
 										</div>
 										<div className="pl-1">
-											<i className="fa fa-gift text-yellow"></i>
-											<span className="pl-1">0</span>
-										</div>
-									</div>
-								</div>
-								<div className="w-100 p-2 bg-light-col rounded border-top d-flex justify-content-between align-items-end text-center">
-									<div className="dt rounded-circle"></div>
-									<div className="d-flex justify-content-end">
-										<div>
-											<i className="fa fa-users text-logo"></i>
-											<span className="pl-1">0</span>
-										</div>
-										<div className="pl-1">
-											<i className="fa fa-gift text-yellow"></i>
+											<i className="fa fa-gift text-pry"></i>
 											<span className="pl-1">0</span>
 										</div>
 									</div>
@@ -89,7 +76,20 @@ const Info = () => {
 											<span className="pl-1">0</span>
 										</div>
 										<div className="pl-1">
-											<i className="fa fa-gift text-yellow"></i>
+											<i className="fa fa-gift text-pry"></i>
+											<span className="pl-1">0</span>
+										</div>
+									</div>
+								</div>
+								<div className="w-100 p-2 bg-light-col rounded border-top d-flex justify-content-between align-items-end text-center">
+									<div className="dt rounded-circle"></div>
+									<div className="d-flex justify-content-end">
+										<div>
+											<i className="fa fa-users text-logo"></i>
+											<span className="pl-1">0</span>
+										</div>
+										<div className="pl-1">
+											<i className="fa fa-gift text-pry"></i>
 											<span className="pl-1">0</span>
 										</div>
 									</div>
@@ -103,11 +103,11 @@ const Info = () => {
 								<span className="pl-1">951</span>
 							</div>
 							<div className="pl-1 text-center">
-								<i className="fa fa-gift text-yellow"></i>
+								<i className="fa fa-gift text-pry"></i>
 								<span className="pl-1">2.39</span>
 							</div>
 							<div className="pl-1 text-center">
-								<i className="fa fa-minus bg-yellow rounded-circle"></i>
+								<i className="fa fa-minus bg-pry rounded-circle"></i>
 								<span className="pl-1">2.39</span>
 							</div>
 						</div>
@@ -116,7 +116,7 @@ const Info = () => {
 
 				<div className="d-flex flex-nowrap ab">
 					<span className="bg-logo rounded spn d-inline-block bg">15</span>
-					<Link to="/" className="bg-yellow text-logo spn d-inline-block rounded-circle">
+					<Link to="/" className="bg-pry text-logo spn d-inline-block rounded-circle">
 						<i className="fa fa-arrow-right"></i>
 					</Link>
 				</div>

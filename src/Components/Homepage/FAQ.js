@@ -12,7 +12,7 @@ const FAQ = () => {
 			<h2 className="font-weight-bold text-center text-uppercase">
 				frequently asked questions
 				<br />
-				<span className="text-yellow">(faq)</span>
+				<span className="text-pry">(faq)</span>
 			</h2>
 			<div className="row justify-content-center">
 				<div className="d-flex flex-column justify-content-center col-sm-10 col-md-9 col-lg-10 px-4 px-md-auto overflow-hidden">

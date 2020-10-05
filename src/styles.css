@@ -6,14 +6,6 @@
   background: #fff;
 }
 
-.text-yellow {
-  color: #ec8724;
-}
-
-.bg-yellow {
-  background: #ec8724;
-}
-
 .bg-logo {
   background: #327293;
 }
@@ -36,6 +28,14 @@ a.bg-logo:hover {
 
 .bg-dark-logo {
   background: #040615;
+}
+
+.bg-pry {
+  background: #933a32;
+}
+
+.text-pry {
+  color: #933a32;
 }
 
 body {
@@ -100,14 +100,14 @@ body {
 }
 
 .wrapper .footer a:hover {
-  color: #ec8724;
+  color: #6b251c;
 }
 
 .homepage .action__btn a {
   width: 100%;
   border-radius: 30px;
   border: 2px solid #ddd;
-  transition: background 600ms;
+  transition: background 400ms;
 }
 
 @media screen and (min-width: 768px) {
@@ -133,11 +133,11 @@ body {
 }
 
 .homepage .action__btn a:nth-child(3) {
-  background: #ec8724;
+  background: #933a32;
 }
 
 .homepage .action__btn a:nth-child(3):hover {
-  background: #e28c0dad;
+  background: #6b251c;
 }
 
 .homepage .items {
@@ -168,6 +168,15 @@ body {
   bottom: 0;
   width: 2px;
   background-color: #fff;
+}
+
+.homepage .coms a {
+  transition: background-color 400ms;
+}
+
+.homepage .coms a:hover {
+  text-decoration: none;
+  background-color: #6b251c;
 }
 
 .homepage .faq .btn-link,
@@ -493,7 +502,7 @@ body {
 }
 
 .dashboard .main a.bg-yellow:hover {
-  background-color: #ec8724cc;
+  background-color: #6b251c;
 }
 
 @media screen and (min-width: 768px) {
@@ -503,7 +512,7 @@ body {
 }
 
 .dashboard .main .line span {
-  border-left: 1px dashed #ec8724;
+  border-left: 1px dashed #933a32;
 }
 
 .dashboard .main .line {
@@ -573,7 +582,7 @@ body {
 .dashboard .main .f__l span.first-child::before,
 .dashboard .main .c__l span.first-child::before {
   width: 1px;
-  border-left: 1px solid #ec8724;
+  border-left: 1px solid #933a32;
 }
 
 .dashboard .main .f__l span.first-child a,
@@ -618,7 +627,7 @@ body {
 .dashboard .main .f__l span.second-child::before {
   width: 1px;
   height: 15px;
-  border-left: 1px solid #ec8724;
+  border-left: 1px solid #933a32;
 }
 
 .dashboard .main .c__l span {
@@ -648,7 +657,7 @@ body {
 .dashboard .main .c__l span.second-child::before {
   width: 1px;
   height: 16px;
-  border-left: 1px solid #ec8724;
+  border-left: 1px solid #933a32;
   top: -1rem;
 }
 
@@ -669,7 +678,7 @@ body {
 .dashboard .main .c__l span.third-child::before {
   width: 1px;
   height: 14px;
-  border-left: 1px solid #ec8724;
+  border-left: 1px solid #933a32;
 }
 
 .dashboard .main .invite .draw {

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const PayingSystem = () => {
 	return (
-		<section className="container px-lg-5">
+		<section className="container px-lg-5 coms">
 			<h2 className="text-uppercase font-weight-bold text-center">
-				<span className="text-yellow">Commission payout system</span>
+				<span className="text-pry">Commission payout system</span>
 				<br />
 				<span className="">x3, x4 and x8 partner income explained</span>
 			</h2>
@@ -13,7 +13,7 @@ const PayingSystem = () => {
 				<div className="col-sm-10 col-md-8 col-lg-5 mx-2 bg-logo card display__card shadow mt-3">
 					<div className="d-flex flex-column justify-content-center align-items-center p-3 px-lg-4 py-lg-5">
 						<h3>
-							XLM <span className="text-yellow">X1</span>
+							XLM <span className="text-pry">X1</span>
 						</h3>
 						<img className="card-img" src="/images/01.png" alt="first img" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
@@ -35,7 +35,7 @@ const PayingSystem = () => {
 				<div className="col-sm-10 col-md-8 col-lg-5 mx-2 bg-logo card display__card shadow mt-3">
 					<div className="d-flex flex-column justify-content-center align-items-center p-3 px-lg-4 py-lg-5">
 						<h3>
-							XLM <span className="text-yellow">X1</span>
+							XLM <span className="text-pry">X1</span>
 						</h3>
 						<img className="card-img" src="/images/02.png" alt="first img" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
@@ -56,7 +56,7 @@ const PayingSystem = () => {
 				</div>
 			</div>
 			<div className="d-flex justify-content-center my-4">
-				<Link className="d-inline-block px-4 py-3 bg-yellow rounded text-white text-uppercase" to="/" target="_blanc">
+				<Link className="d-inline-block px-4 py-3 bg-pry rounded text-white text-uppercase" to="/join" target="_blanc">
 					Only 0.03 XLM to join
 				</Link>
 			</div>

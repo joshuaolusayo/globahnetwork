@@ -15,7 +15,7 @@ const FirstContainer = () => {
 					</div>
 					<div className="font-neogrey-medium font-weight-bold">$ 75.07</div>
 				</div>
-				<button type="button" className="btn p-1 mt-2 my-sm-4 bg-yellow rounded text-white text-uppercase w-100" to="/">
+				<button type="button" className="btn p-1 mt-2 my-sm-4 bg-pry rounded text-white text-uppercase w-100" to="/">
 					<i className="fa fa-exclamation-triangle"></i> 0.19 XLM
 				</button>
 			</div>
@@ -23,21 +23,21 @@ const FirstContainer = () => {
 				<h4 className="font-neogrey-medium mt-1 mt-sm-2 ft">GBN 3</h4>
 				<button className="btn p-1 p-sm-2 rounded text-white mg__n5">
 					<span className="bg-logo p-1 p-sm-2 rounded-left">$ 7.9</span>
-					<span className="bg-yellow p-1 p-sm-2 rounded-right">0.02 XLM</span>
+					<span className="bg-pry p-1 p-sm-2 rounded-right">0.02 XLM</span>
 				</button>
 			</div>
 			<div className="d-flex flex-column mt-4 mt-lg-5 text-center border py-2">
 				<h4 className="font-neogrey-medium mt-1 mt-sm-2 ft">GBN 3</h4>
 				<button className="btn p-1 p-sm-2 rounded text-white mg__n5">
 					<span className="bg-logo p-1 p-sm-2 rounded-left">$ 7.9</span>
-					<span className="bg-yellow p-1 p-sm-2 rounded-right">0.02 XLM</span>
+					<span className="bg-pry p-1 p-sm-2 rounded-right">0.02 XLM</span>
 				</button>
 			</div>
 			<div className="d-flex flex-column mt-4 mt-lg-5 text-center border py-2">
 				<h4 className="font-neogrey-medium mt-1 mt-sm-2 ft">GBN 3</h4>
 				<button className="btn p-1 p-sm-2 rounded text-white mg__n5">
 					<span className="bg-logo p-1 p-sm-2 rounded-left">$ 7.9</span>
-					<span className="bg-yellow p-1 p-sm-2 rounded-right">0.02 XLM</span>
+					<span className="bg-pry p-1 p-sm-2 rounded-right">0.02 XLM</span>
 				</button>
 			</div>
 			<p className="text-uppercase mt-5">

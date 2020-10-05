@@ -1,5 +1,8 @@
 $text-white: #fff;
-$text-yellow: #ec8724;
+// $text-yellow: #ec8724;
+// $text-yellow: #935232;
+$pry-color: #933a32;
+$pry-color-hover: #6b251c;
 $background-color: #040615;
 // $logo-color: #5bcbf5;
 $logo-color: #327293;
@@ -14,13 +17,13 @@ $green-color: #8bc34a;
 	background: $text-white;
 }
 
-.text-yellow {
-	color: $text-yellow;
-}
+// .text-yellow {
+// 	color: $text-yellow;
+// }
 
-.bg-yellow {
-	background: $text-yellow;
-}
+// .bg-yellow {
+// 	background: $text-yellow;
+// }
 
 .bg-logo {
 	background: $logo-color;
@@ -46,6 +49,14 @@ a.bg-logo:hover {
 	background: $background-color;
 }
 
+.bg-pry {
+	background: $pry-color;
+}
+
+.text-pry {
+	color: $pry-color;
+}
+
 body {
 	background: $background-color;
 	font-family: "Lato", sans-serif;
@@ -62,9 +73,6 @@ body {
 }
 
 .wrapper {
-	// background: linear-gradient(#0b203b, rgba(0, 0, 0, 0.8)), url("/images/homepage_01_bg.jpg");
-	// background-attachment: fixed;
-	// min-height: 100vh;
 	background-color: #040615;
 
 	header {
@@ -106,7 +114,7 @@ body {
 
 		a {
 			&:hover {
-				color: $text-yellow;
+				color: $pry-color-hover;
 			}
 		}
 	}
@@ -118,7 +126,7 @@ body {
 			width: 100%;
 			border-radius: 30px;
 			border: 2px solid #ddd;
-			transition: background 600ms;
+			transition: background 400ms;
 
 			@media screen and (min-width: 768px) {
 				width: 200px;
@@ -141,10 +149,10 @@ body {
 			}
 
 			&:nth-child(3) {
-				background: #ec8724;
+				background: #933a32;
 
 				&:hover {
-					background: #e28c0dad;
+					background: #6b251c;
 				}
 			}
 		}
@@ -178,6 +186,17 @@ body {
 			bottom: 0;
 			width: 2px;
 			background-color: $text-white;
+		}
+	}
+
+	.coms {
+		a {
+			transition: background-color 400ms;
+
+			&:hover {
+				text-decoration: none;
+				background-color: $pry-color-hover;
+			}
 		}
 	}
 
@@ -485,7 +504,7 @@ body {
 			}
 
 			&.bg-yellow:hover {
-				background-color: #ec8724cc;
+				background-color: #6b251c;
 			}
 		}
 
@@ -495,7 +514,7 @@ body {
 			}
 
 			span {
-				border-left: 1px dashed $text-yellow;
+				border-left: 1px dashed $pry-color;
 			}
 		}
 
@@ -566,7 +585,7 @@ body {
 				&.first-child {
 					&::before {
 						width: 1px;
-						border-left: 1px solid $text-yellow;
+						border-left: 1px solid $pry-color;
 					}
 
 					a {
@@ -623,7 +642,7 @@ body {
 					&::before {
 						width: 1px;
 						height: 15px;
-						border-left: 1px solid $text-yellow;
+						border-left: 1px solid $pry-color;
 					}
 				}
 			}
@@ -664,7 +683,7 @@ body {
 					&::before {
 						width: 1px;
 						height: 16px;
-						border-left: 1px solid $text-yellow;
+						border-left: 1px solid $pry-color;
 						top: -1rem;
 					}
 
@@ -685,7 +704,7 @@ body {
 					&::before {
 						width: 1px;
 						height: 14px;
-						border-left: 1px solid $text-yellow;
+						border-left: 1px solid $pry-color;
 					}
 
 					// &:nth-child(1) {

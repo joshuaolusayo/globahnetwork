@@ -56,14 +56,14 @@ const Header = () => {
 						</div>
 					</div>
 					<div className="row no-gutters">
-						<div className="col-lg-7 text-right pr-lg-2 font-neogrey-medium font-weight-bold fa-2x text-yellow">1420.2</div>
+						<div className="col-lg-7 text-right pr-lg-2 font-neogrey-medium font-weight-bold fa-2x text-pry">1420.2</div>
 						<div className="col-lg-5 text-uppercase sm">
 							participants <br />
 							have earned XLM
 						</div>
 					</div>
 					<div className="row no-gutters">
-						<div className="col-lg-7 text-right pr-lg-2 font-neogrey-medium font-weight-bold fa-2x text-yellow">561092.62</div>
+						<div className="col-lg-7 text-right pr-lg-2 font-neogrey-medium font-weight-bold fa-2x text-pry">561092.62</div>
 						<div className="col-lg-5 text-uppercase sm">
 							participants <br />
 							have earned usd

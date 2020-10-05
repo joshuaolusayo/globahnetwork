@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "copy-button/bundled.min.js";
 
 const SecondContainer = () => {
-	const [inputValue] = useState("");
 
 	return (
 		<div className="container pr-0 pl-md-4 px-lg-0 py-lg-3 col-6 col-sm-6 col-lg-12 mt-lg-4">
@@ -13,13 +12,13 @@ const SecondContainer = () => {
 						3 <i className="fa fa-user"></i>
 					</span>
 				</div>
-				<button type="button" id="copy-1" className="btn p-1 bg-logo rounded-0 my-2 text-white link shadow" value={inputValue}>
+				<button type="button" id="copy-1" className="btn p-1 bg-logo rounded-0 my-2 text-white link shadow">
 					hgvbnljsdfhuigkjnldewhfgbdknslfhisbjknslfh
 				</button>
 
 				<div className="d-flex justify-content-center">
 					<copy-button target-element="#copy-1">
-						<button type="button" className="btn py-1 px-2 bg-yellow text-white mg__n5 cop_y">
+						<button type="button" className="btn py-1 px-2 bg-pry text-white mg__n5 cop_y">
 							Copy{" "}
 							<span className="check">
 								<i className="fa fa-check text-logo"></i>
@@ -37,7 +36,7 @@ const SecondContainer = () => {
 					<button className="btn rounded text-white mg__n5">
 						<span className="bg-logo p-1 p-sm-2 rounded-left text-capitalize">to XLM</span>
 						<copy-button target-element="#copy-2">
-							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
+							<span className="bg-pry p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
 								Copy &nbsp;
 								<span className="check">
 									<i className="fa fa-check text-logo"></i>
@@ -56,7 +55,7 @@ const SecondContainer = () => {
 					<button className="btn rounded text-white mg__n5">
 						<span className="bg-logo p-1 p-sm-2 rounded-left text-capitalize">to XLM</span>
 						<copy-button target-element="#copy-3">
-							<span className="bg-yellow p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
+							<span className="bg-pry p-1 p-sm-2 rounded-right text-white cop_y" tabIndex="1">
 								Copy &nbsp;
 								<span className="check">
 									<i className="fa fa-check text-logo"></i>
