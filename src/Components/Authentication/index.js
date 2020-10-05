@@ -18,11 +18,11 @@ const Authenticate = () => {
 					}
 				>
 					<header className="pt-4 pb-0 p-sm-4 d-flex flex-column flex-sm-row justify-content-center align-items-center justify-content-sm-between">
-						<Link className="d-inline-block" to="/" target="_blanc">
+						<Link className="d-inline-block" to="/" target="_blank">
 							<img className="logo" src="/images/logo.png" alt="Logo" />
 						</Link>
 
-						<Link className="pt-3 pb-0 p-sm-4 d-md-inline-block hme" to="/home/dashboard" target="_blanc">
+						<Link className="pt-3 pb-0 p-sm-4 d-md-inline-block hme" to="/home/dashboard" target="_blank">
 							Dashboard
 						</Link>
 					</header>
@@ -59,7 +59,7 @@ const Authenticate = () => {
 									<Link
 										className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3"
 										to="/join"
-										target="_blanc"
+										target="_blank"
 									>
 										Join
 									</Link>
@@ -69,7 +69,7 @@ const Authenticate = () => {
 					</section>
 					<p className="text-center mt-2">
 						Join us on telegram&nbsp;
-						<Link className="text-logo" to="/" target="_blanc">
+						<Link className="text-logo" to="/" target="_blank">
 							here
 						</Link>
 					</p>

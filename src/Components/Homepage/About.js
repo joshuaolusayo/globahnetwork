@@ -15,13 +15,13 @@ const About = () => {
 			<h1 className="text-uppercase font-weight-bold text-center" data-aos="fade-left">The First Ever</h1>
 			<h3 className=" text-uppercase text-center" data-aos="fade-right">100% decentralized</h3>
 			<div className="action__btn container d-flex flex-column flex-md-row justify-content-md-center">
-				<Link className="d-inline-block btn text-center text-white py-3 mr-md-3 my-3" target="_blanc" to="/join">
+				<Link className="d-inline-block btn text-center text-white py-3 mr-md-3 my-3" target="_blank" to="/join">
 					JOIN NOW
 				</Link>
-				<Link className="d-inline-block btn text-center text-white py-3 mx-md-3 my-3" target="_blanc" to="/">
+				<Link className="d-inline-block btn text-center text-white py-3 mx-md-3 my-3" target="_blank" to="/">
 					PDF
 				</Link>
-				<Link className="d-inline-block btn text-center text-white py-3 ml-md-3 my-3" target="_blanc" to="/auth">
+				<Link className="d-inline-block btn text-center text-white py-3 ml-md-3 my-3" target="_blank" to="/auth">
 					LOGIN
 				</Link>
 			</div>
