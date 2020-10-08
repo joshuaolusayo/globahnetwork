@@ -15,7 +15,7 @@ const PayingSystem = () => {
 						<h3>
 							XLM <span className="text-pry">X1</span>
 						</h3>
-						<img className="card-img" src="/images/01.png" alt="first img" />
+						<img className="card-img" src="/images/01.png" alt="first img" loading="lazy" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
 							<i className="fa fa-2x fa-refresh"></i>
 							<span className="pl-4">
@@ -37,7 +37,7 @@ const PayingSystem = () => {
 						<h3>
 							XLM <span className="text-pry">X1</span>
 						</h3>
-						<img className="card-img" src="/images/02.png" alt="first img" />
+						<img className="card-img" src="/images/02.png" alt="first img" loading="lazy" />
 						<div className="d-flex justify-content-between align-items-center mt-4">
 							<i className="fa fa-2x fa-refresh"></i>
 							<span className="pl-4">

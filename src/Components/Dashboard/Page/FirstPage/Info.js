@@ -1,16 +1,63 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
+
+// import database from '../../db';
+
+// const DATA = database;
+// console.log(DATA);
 
 const Info = () => {
+	const [items, setItems] = useState([]);
+	// const [currentData, setCurrentData] = useState([]);
+	const [count, setCount] = useState(0);
+	const [total, setTotal] = useState(0);
+
+
+	function handleRightClick() {
+		if (count === total - 1) {
+			setCount(0);
+		} else {
+			setCount(count + 1);
+		}
+	}
+
+	function handleLeftClick() {
+		if (count === 0) {
+			setCount(total - 1);
+		} else {
+			setCount(count - 1);
+		}
+	}
+
+	useEffect(() => {
+		// if (items)
+		// console.log(items);
+		axios
+			.get("../../db.json")
+			.then((res) => {
+				console.log(res);
+				setItems(res.data.firstPage[count]);
+				setTotal(res.data.firstPage.length)
+			})
+			.catch((err) => console.log(err));
+
+		return () => {
+			console.log("unmounting");
+		};
+	}, [count]);
+
+	console.log(items);
+	console.log(items[count]);
 	return (
 		<div className="border-bg p-1 p-sm-2 info">
 			<h3 className="font-neogrey font-weight-bold font-italic text-center my-4 mb-lg-5">Global Network</h3>
 			<div className="p__abs d-flex justify-content-between align-items-center">
 				<div className="d-flex flex-nowrap ab">
-					<Link to="/" className="bg-pry text-logo spn d-inline-block rounded-circle">
+					<span className="bg-pry text-logo spn d-inline-block rounded-circle" onClick={handleLeftClick}>
 						<i className="fa fa-arrow-left"></i>
-					</Link>
-					<span className="bg-logo rounded spn d-inline-block bg">15</span>
+					</span>
+					<span className="bg-logo rounded spn d-inline-block bg">{items.navPage1}</span>
 				</div>
 
 				<div className="d-flex flex-column justify-content-center align-items-center">
@@ -34,21 +81,21 @@ const Info = () => {
 							</select>
 							<i className="fa fa-database text-pry"></i>
 							<i className="fa fa-refresh text-pry px-1 px-sm-2"></i>
-							<span>444</span>
+							<span>{items.history}</span>
 						</div>
 
 						<div className="">
 							<button className="btn rounded bg-logo px-1 px-sm-2 id__details d-flex flex-column justify-content-center align-items-between">
 								<span className="w-100 d-flex justify-content-between">
-									<span>1</span>
+									<span>{items.id}</span>
 									<span className="text-white">ID 7860</span>
 								</span>
 								<span className="w-100 text-white d-flex justify-content-end py-1">
 									<span className="bg-pry p-1 shadow-lg rounded bg-dark-logo">
-										$ <span>0</span>
+										$ <span>{items.idAmt}</span>
 									</span>
 									<span className="bg-pry p-1 shadow-lg rounded bg-dark-logo ml-1">
-										0 <span>XLM</span>
+										{items.stellarAmt} <span>XLM</span>
 									</span>
 								</span>
 							</button>
@@ -100,25 +147,25 @@ const Info = () => {
 						<div className="col d-flex justify-content-center align-items-center">
 							<div className="text-center">
 								<i className="fa fa-users text-logo"></i>
-								<span className="pl-1">951</span>
+								<span className="pl-1">{items.item1}</span>
 							</div>
 							<div className="pl-1 text-center">
 								<i className="fa fa-gift text-pry"></i>
-								<span className="pl-1">2.39</span>
+								<span className="pl-1">{items.item2}</span>
 							</div>
 							<div className="pl-1 text-center">
 								<i className="fa fa-minus bg-pry rounded-circle"></i>
-								<span className="pl-1">2.39</span>
+								<span className="pl-1">{items.item3}</span>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<div className="d-flex flex-nowrap ab">
-					<span className="bg-logo rounded spn d-inline-block bg">15</span>
-					<Link to="/" className="bg-pry text-logo spn d-inline-block rounded-circle">
+					<span className="bg-logo rounded spn d-inline-block bg">{items.navPage2}</span>
+					<span className="bg-pry text-logo spn d-inline-block rounded-circle" onClick={handleRightClick}>
 						<i className="fa fa-arrow-right"></i>
-					</Link>
+					</span>
 				</div>
 			</div>
 		</div>

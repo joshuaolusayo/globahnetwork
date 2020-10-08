@@ -11,7 +11,7 @@ const About = () => {
 	}, []);
 	return (
 		<section className="container-fluid d-flex flex-column justify-content-center align-items-center overflow-hidden">
-			<img className="banner__img mb-5" src="/images/globe.png" alt="Running man" data-aos="zoom-in" data-aos-duration="2000" />
+			<img className="banner__img mb-5" src="/images/globe.png" alt="Running man" loading="lazy" data-aos="zoom-in" data-aos-duration="2000" />
 			<h1 className="text-uppercase font-weight-bold text-center" data-aos="fade-left">The First Ever</h1>
 			<h3 className=" text-uppercase text-center" data-aos="fade-right">100% decentralized</h3>
 			<div className="action__btn container d-flex flex-column flex-md-row justify-content-md-center">

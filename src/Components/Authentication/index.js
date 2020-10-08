@@ -19,7 +19,7 @@ const Authenticate = () => {
 				>
 					<header className="pt-4 pb-0 p-sm-4 d-flex flex-column flex-sm-row justify-content-center align-items-center justify-content-sm-between">
 						<Link className="d-inline-block" to="/" target="_blank">
-							<img className="logo" src="/images/logo.png" alt="Logo" />
+							<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 						</Link>
 
 						<Link className="pt-3 pb-0 p-sm-4 d-md-inline-block hme" to="/home/dashboard" target="_blank">
@@ -29,7 +29,7 @@ const Authenticate = () => {
 					<section className="container my-5 my-md-auto">
 						<div className="row no-gutters register">
 							<div className="col-md-6 d-none d-md-block">
-								<img className="register__img img2" src="/images/img2.jpg" alt="Join" />
+								<img className="register__img img2" src="/images/img2.jpg" alt="Join" loading="lazy" />
 							</div>
 							<div className="col-md-6 d-flex flex-column justify-content-center align-items-center p-4 text-center">
 								<div>

@@ -20,7 +20,7 @@ const Join = () => {
 				>
 					<header className="p-4 d-flex justify-content-center justify-content-md-between">
 						<Link className="d-inline-block" to="/" target="_blank">
-							<img className="logo" src="/images/logo.png" alt="Logo" />
+							<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 						</Link>
 
 						<Link className="p-4 d-none d-md-inline-block" to="/" target="_blank">
@@ -30,7 +30,7 @@ const Join = () => {
 					<section className="container my-5 my-md-auto">
 						<div className="row no-gutters register">
 							<div className="col-md-6 d-none d-md-block">
-								<img className="register__img" src="/images/img1.jpg" alt="Join" />
+								<img className="register__img" src="/images/img1.jpg" alt="Join" loading="lazy" />
 							</div>
 							<div className="col-md-6 d-flex flex-column justify-content-center align-items-center p-4 text-center">
 								{change ? (

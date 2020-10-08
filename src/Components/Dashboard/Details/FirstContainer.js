@@ -4,7 +4,7 @@ const FirstContainer = () => {
 	return (
 		<div className="container border-bg py-2 p-sm-4 p-lg-3 col-6 col-sm-6 col-lg-12">
 			<div className="d-flex flex-column align-items-center">
-				<img className="sm__img" src="/images/ether.png" alt="ether" />
+				<img className="sm__img" src="/images/ether.png" alt="ether" loading="lazy" />
 				<div className="d-flex justify-content-between w-100 txt__bg">
 					<div className="text-uppercase font-weight-bold font-neogrey-medium">id 7</div>
 					<div className="font-neogrey-medium">

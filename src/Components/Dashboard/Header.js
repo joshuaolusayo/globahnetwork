@@ -6,9 +6,9 @@ const Header = () => {
 		<header className="d-flex container justify-content-between align-items-center pb-3">
 			<div className="row justify-content-center justify-content-md-between py-3 align-items-center w-100">
 				<Link className="d-inline-block" to="/" target="_blank">
-					<img className="logo" src="/images/logo.png" alt="Logo" />
+					<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 				</Link>
-				<img className="globe" src="/images/globe.png" alt="Globe" />
+				<img className="globe" src="/images/globe.png" alt="Globe" loading="lazy" />
 			</div>
 			<div className="flex-basis-100 w-100">
 				<nav className="d-flex justify-content-center">
