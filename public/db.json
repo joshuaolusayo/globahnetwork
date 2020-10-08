@@ -6,19 +6,27 @@
 			"navPage2": 6,
 			"userMatrixLevel": 1,
 			"idAmt": 0,
-			"stellarAmt": 4.2,
-			"firstPerson": {
-				"users": 120,
-				"gift": 2
-			},
-			"secondPerson": {
-				"users": 130,
-				"gift": 4
-			},
-			"thirdPerson": {
-				"users": 110,
-				"gift": 3
-			},
+            "stellarAmt": 4.2,
+            "people": [
+                {
+                    "id": 1,
+                    "users": 120,
+                    "gift": 2,
+                    "link": true
+                },
+                {
+                    "id": 2,
+                    "users": 0,
+                    "gift": 0,
+                    "link": false
+                },
+                {
+                    "id": 3,
+                    "users": 110,
+                    "gift": 3,
+                    "link": false
+                }
+            ],
 			"item1": 951,
 			"item2": 2.39,
 			"item3": 0,
@@ -31,24 +39,26 @@
 			"userMatrixLevel": 1,
 			"idAmt": 0,
 			"stellarAmt": 4.2,
-			"firstPerson": [
-				{
-					"users": 120,
-					"gift": 2
-				}
-			],
-			"secondPerson": [
-				{
-					"users": 130,
-					"gift": 4
-				}
-			],
-			"thirdPerson": [
-				{
-					"users": 110,
-					"gift": 3
-				}
-			],
+            "people": [
+                {
+                    "id": 1,
+                    "users": 120,
+                    "gift": 2,
+                    "link": false
+                },
+                {
+                    "id": 2,
+                    "users": 130,
+                    "gift": 4,
+                    "link": true
+                },
+                {
+                    "id": 3,
+                    "users": 110,
+                    "gift": 3,
+                    "link": false
+                }
+            ],
 			"item1": 4,
 			"item2": 5,
 			"item3": 5,
@@ -61,28 +71,170 @@
 			"userMatrixLevel": 1,
 			"idAmt": 0,
 			"stellarAmt": 4.2,
-			"firstPerson": [
-				{
-					"users": 130,
-					"gift": 2
-				}
-			],
-			"secondPerson": [
-				{
-					"users": 130,
-					"gift": 4
-				}
-			],
-			"thirdPerson": [
-				{
-					"users": 110,
-					"gift": 3
-				}
-			],
+			"people": [
+                {
+                    "id": 1,
+                    "users": 50,
+                    "gift": 12,
+                    "link": false
+                },
+                {
+                    "id": 2,
+                    "users": 10,
+                    "gift": 14,
+                    "link": true
+                },
+                {
+                    "id": 3,
+                    "users": 110,
+                    "gift": 3,
+                    "link": true
+                }
+            ],
 			"item1": 140,
 			"item2": 257,
 			"item3": 34,
 			"history": 18
 		}
-	]
+    ],
+    "secondPage": [
+        {
+            "id": 1,
+			"navPage1": 3,
+			"navPage2": 6,
+			"userMatrixLevel": 1,
+			"idAmt": 0,
+            "stellarAmt": 4.2,
+            "people": [
+                {
+                    "id": 1,
+                    "users": 120,
+                    "gift": 2,
+                    "link": true,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": false
+                        },
+                        {
+                            "id": 2,
+                            "link": true
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "users": 0,
+                    "gift": 0,
+                    "link": false,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": true
+                        },
+                        {
+                            "id": 2,
+                            "link": true
+                        }
+                    ]
+                }
+            ],
+            "item1": 140,
+			"item2": 257,
+			"item3": 34,
+			"history": 44
+        },
+        {
+            "id": 2,
+			"navPage1": 13,
+			"navPage2": 21,
+			"userMatrixLevel": 2,
+			"idAmt": 2,
+            "stellarAmt": 3.1,
+            "people": [
+                {
+                    "id": 1,
+                    "users": 80,
+                    "gift": 10,
+                    "link": true,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": false
+                        },
+                        {
+                            "id": 2,
+                            "link": true
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "users": 20,
+                    "gift": 10,
+                    "link": true,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": false
+                        },
+                        {
+                            "id": 2,
+                            "link": false
+                        }
+                    ]
+                }
+            ],
+            "item1": 121,
+			"item2": 257,
+			"item3": 3,
+			"history": 214
+        },
+        {
+            "id": 3,
+			"navPage1": 18,
+			"navPage2": 33,
+			"userMatrixLevel": 2,
+			"idAmt": 3,
+            "stellarAmt": 6.4,
+            "people": [
+                {
+                    "id": 1,
+                    "users": 40,
+                    "gift": 30,
+                    "link": true,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": true
+                        },
+                        {
+                            "id": 2,
+                            "link": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "users": 10,
+                    "gift": 2,
+                    "link": true,
+                    "followers": [
+                        {
+                            "id": 1,
+                            "link": true
+                        },
+                        {
+                            "id": 2,
+                            "link": true
+                        }
+                    ]
+                }
+            ],
+            "item1": 141,
+			"item2": 17,
+			"item3": 7,
+			"history": 641
+        }
+    ]
 }
