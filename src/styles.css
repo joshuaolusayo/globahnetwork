@@ -26,6 +26,10 @@ a.bg-logo:hover {
   background: #007bff40;
 }
 
+a.bg-pry:hover {
+  background: #6b251c;
+}
+
 .bg-dark-logo {
   background: #040615;
 }
