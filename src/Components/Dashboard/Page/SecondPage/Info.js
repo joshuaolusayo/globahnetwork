@@ -33,12 +33,11 @@ const Info = () => {
 			.catch((err) => console.log(err));
 
 		return () => {
-			console.log("unmounting");
+			// callback function
 		};
 	}, [count]);
 
 	if (items.length !== 0) {
-		console.log(items.people[0].id === 1);
 		return (
 			<div className="border-bg p-1 p-sm-2 info second__box">
 				<h3 className="font-neogrey font-weight-bold font-italic text-center my-4 mb-lg-5">Global Network</h3>

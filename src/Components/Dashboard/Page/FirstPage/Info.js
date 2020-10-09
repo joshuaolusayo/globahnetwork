@@ -33,7 +33,7 @@ const Info = () => {
 			.catch((err) => console.log(err));
 
 		return () => {
-			console.log("unmounting");
+			// callback function
 		};
 	}, [count]);
 
