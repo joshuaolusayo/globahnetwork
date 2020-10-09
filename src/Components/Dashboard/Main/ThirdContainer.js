@@ -18,7 +18,6 @@ const ThirdContainer = () => {
 		};
 	}, []);
 
-	console.log(items);
 	if (items.length !== -1) {
 		return (
 			<div className="border-bg p-3">
