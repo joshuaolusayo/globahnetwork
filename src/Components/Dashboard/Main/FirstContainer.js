@@ -46,7 +46,6 @@ const FirstContainer = () => {
 													to="/home/page1"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle"
 													title={`UID: ${item.title}`}
-													target="_blank"
 												></Link>
 											) : (
 												""
@@ -58,7 +57,6 @@ const FirstContainer = () => {
 													to="/home/page1"
 													className="d-inline-block w-100 h-100 bg-pry rounded-circle"
 													title={`UID: ${item.title}`}
-													target="_blank"
 												></Link>
 											) : (
 												""
@@ -70,7 +68,6 @@ const FirstContainer = () => {
 													to="/home/page1"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle"
 													title={`UID: ${item.title}`}
-													target="_blank"
 												></Link>
 											) : (
 												""

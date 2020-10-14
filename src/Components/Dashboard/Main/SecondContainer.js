@@ -40,7 +40,6 @@ const SecondContainer = () => {
 												<Link
 													to="/home/page2"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border mb-1"
-													target="_blank"
 												></Link>
 											) : (
 												""
@@ -51,7 +50,6 @@ const SecondContainer = () => {
 														<Link
 															to="/home/page2"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
-															target="_blank"
 														></Link>
 													) : (
 														""
@@ -62,7 +60,6 @@ const SecondContainer = () => {
 														<Link
 															to="/home/page2"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
-															target="_blank"
 														></Link>
 													) : (
 														""
@@ -75,7 +72,6 @@ const SecondContainer = () => {
 												<Link
 													to="/home/page2"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border mb-1"
-													target="_blank"
 												></Link>
 											) : (
 												""
@@ -86,7 +82,6 @@ const SecondContainer = () => {
 														<Link
 															to="/home/page2"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
-															target="_blank"
 														></Link>
 													) : (
 														""
@@ -97,7 +92,6 @@ const SecondContainer = () => {
 														<Link
 															to="/home/page2"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border mb-1"
-															target="_blank"
 														></Link>
 													) : (
 														""

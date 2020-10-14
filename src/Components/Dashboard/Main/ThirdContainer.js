@@ -41,7 +41,7 @@ const ThirdContainer = () => {
 												<Link
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
-													target="_blank"
+													
 												></Link>
 											) : (
 												""
@@ -53,7 +53,7 @@ const ThirdContainer = () => {
 														<Link
 															to="/home/page3"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border"
-															target="_blank"
+															
 														></Link>
 													) : (
 														""
@@ -65,7 +65,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -76,7 +76,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -89,7 +89,7 @@ const ThirdContainer = () => {
 														<Link
 															to="/home/page3"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border"
-															target="_blank"
+															
 														></Link>
 													) : (
 														""
@@ -100,7 +100,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -111,7 +111,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -127,7 +127,7 @@ const ThirdContainer = () => {
 												<Link
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
-													target="_blank"
+													
 												></Link>
 											) : (
 												""
@@ -138,7 +138,7 @@ const ThirdContainer = () => {
 														<Link
 															to="/home/page3"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border"
-															target="_blank"
+															
 														></Link>
 													) : (
 														""
@@ -149,7 +149,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -160,7 +160,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -173,7 +173,7 @@ const ThirdContainer = () => {
 														<Link
 															to="/home/page3"
 															className="d-inline-block w-100 h-100 bg-pry rounded-circle border"
-															target="_blank"
+															
 														></Link>
 													) : (
 														""
@@ -184,7 +184,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -195,7 +195,7 @@ const ThirdContainer = () => {
 																<Link
 																	to="/home/page3"
 																	className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
-																	target="_blank"
+																	
 																></Link>
 															) : (
 																""
@@ -236,7 +236,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -244,7 +244,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -253,7 +253,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -273,7 +273,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -289,7 +289,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -326,7 +326,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -334,7 +334,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -343,7 +343,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -363,7 +363,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -379,7 +379,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -416,7 +416,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -424,7 +424,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -433,7 +433,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -453,7 +453,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -469,7 +469,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -506,7 +506,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -514,7 +514,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -523,7 +523,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -543,7 +543,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -559,7 +559,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -596,7 +596,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -604,7 +604,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -613,7 +613,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -633,7 +633,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -649,7 +649,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -686,7 +686,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -694,7 +694,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -703,7 +703,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -723,7 +723,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -739,7 +739,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -776,7 +776,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -784,7 +784,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -793,7 +793,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -813,7 +813,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -829,7 +829,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -866,7 +866,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -874,7 +874,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -883,7 +883,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -903,7 +903,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -919,7 +919,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -956,7 +956,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -964,7 +964,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -1026,7 +1026,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1034,7 +1034,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -1043,7 +1043,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -1063,7 +1063,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1079,7 +1079,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -1116,7 +1116,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1124,7 +1124,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -1133,7 +1133,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -1153,7 +1153,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1169,7 +1169,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -1206,7 +1206,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1214,7 +1214,7 @@ const ThirdContainer = () => {
 											to="/home/page3"
 											className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 											title="UID: 7958"
-											target="_blank"
+											
 										></Link>
 
 										<div className="d-flex justify-content-between">
@@ -1223,7 +1223,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-logo rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>
@@ -1243,7 +1243,7 @@ const ThirdContainer = () => {
 									to="/home/page3"
 									className="d-inline-block w-100 h-100 bg-green rounded-circle border"
 									title="UID: 7958"
-									target="_blank"
+									
 								></Link>
 								<div className="d-flex justify-content-between mt-4">
 									<span className="hole rounded-circle border ml-n3 second-child t-n2">
@@ -1259,7 +1259,7 @@ const ThirdContainer = () => {
 													to="/home/page3"
 													className="d-inline-block w-100 h-100 bg-secondary rounded-circle border"
 													title="UID: 7958"
-													target="_blank"
+													
 												></Link>
 											</span>
 											<span className="rounded-circle third-child mr-n2"></span>

@@ -19,11 +19,11 @@ const Join = () => {
 					}
 				>
 					<header className="p-4 d-flex justify-content-center justify-content-md-between">
-						<Link className="d-inline-block" to="/" target="_blank">
+						<Link className="d-inline-block" to="/">
 							<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 						</Link>
 
-						<Link className="p-4 d-none d-md-inline-block" to="/" target="_blank">
+						<Link className="p-4 d-none d-md-inline-block" to="/">
 							Homepage
 						</Link>
 					</header>
@@ -51,7 +51,7 @@ const Join = () => {
 								)}
 
 								<p>
-									The current Ethereum network load:
+									The current Stellar network load:
 									<span className="text-logo font-weight-bold"> Very high</span>
 								</p>
 								<p className="text-uppercase text-underline">
@@ -64,7 +64,6 @@ const Join = () => {
 								<Link
 									className="d-inline-block text-center rounded auth text-white w-100 bg-logo py-3"
 									to="/auth"
-									target="_blank"
 								>
 									Authorization
 								</Link>
@@ -73,7 +72,7 @@ const Join = () => {
 					</section>
 					<p className="text-center mt-2">
 						Join us on telegram&nbsp;
-						<Link className="text-logo" to="/" target="_blank">
+						<Link className="text-logo" to="/">
 							here
 						</Link>
 					</p>
